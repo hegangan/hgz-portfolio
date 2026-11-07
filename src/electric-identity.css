@@ -1,0 +1,13 @@
+.electric-identity { position:absolute;inset:0 -6% 0 -10%;z-index:1;outline:none;cursor:crosshair; }
+.electric-identity .electric-logo { height:100%;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent),linear-gradient(transparent,#000 14%,#000 86%,transparent);mask-composite:intersect; }
+.electric-fallback { position:absolute;left:3%;top:50%;width:94%;transform:translateY(-50%);opacity:.3;filter:drop-shadow(0 0 12px var(--accent));transition:opacity .5s;pointer-events:none; }
+.electric-identity.is-ready .electric-fallback { opacity:0; }
+.electric-identity:focus-visible { outline:1px solid var(--accent);outline-offset:-15px;border-radius:8px; }
+.electric-signature-note { position:absolute;left:9%;right:5%;bottom:4%;display:flex;align-items:center;gap:9px;color:var(--muted);font-size:10px;letter-spacing:1px;pointer-events:none; }
+.electric-signature-note>i { width:5px;height:5px;background:var(--accent);border-radius:50%;box-shadow:0 0 12px var(--accent); }
+.electric-signature-note>span { margin-left:auto;font-size:9px; }
+.hero-optics .optical-stage { height:clamp(410px,34vw,610px);margin-bottom:18px; }
+.hero-art-caption { position:relative;z-index:3; }
+@media(min-width:901px){.studio-hero .hero-composition{grid-template-columns:.83fr 1.17fr;gap:2%;}}
+@media(min-width:641px) and (max-width:900px){.hero-optics .optical-stage{height:360px;}.electric-identity{inset:0 -5%;}.electric-signature-note{font-size:9px;}.electric-signature-note>span{display:none;}}
+@media(max-width:640px){.hero-optics .optical-stage{height:clamp(240px,68vw,360px);margin-bottom:15px;}.electric-identity{inset:0 -4%;}.electric-signature-note{left:7%;right:7%;bottom:2%;font-size:9px;}.electric-signature-note>span{font-size:8px;}}

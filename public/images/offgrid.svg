@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="760" viewBox="0 0 1000 760"><defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".11"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#ece8de"/><stop offset="1" stop-color="#b9b6ae"/></linearGradient><linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7138"/><stop offset="1" stop-color="#e14b1d"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter></defs>
+<rect width="1000" height="760" fill="url(#bg)"/>
+<g opacity=".18" stroke="#77756e"><path d="M0 510 1000 210M0 650 1000 350M200 760 1000 500"/><path d="m180 0 820 620M0 140l830 620"/></g>
+<ellipse cx="555" cy="610" rx="330" ry="55" fill="#31312c" opacity=".30" filter="url(#shadow)"/>
+<g transform="translate(137 180) rotate(-11 300 200)">
+<path d="M20 40 416 0 624 138 226 184Z" fill="#ff8a53"/>
+<path d="m20 40 206 144v300L20 338Z" fill="#b9431d"/>
+<path d="m226 184 398-46v295l-398 51Z" fill="url(#orange)"/>
+<path d="m100 94 395-45 49 33-396 46Z" fill="#151918"/>
+<g transform="matrix(1,-.115,0,1,260,228)" fill="#151918" font-family="Arial,Helvetica,sans-serif" font-weight="900"><text font-size="91" letter-spacing="-7" y="70">OFF/</text><text font-size="91" letter-spacing="-7" y="145">GRID</text><path d="M0 175h322" stroke="#151918" stroke-width="2"/><text y="204" font-size="11" letter-spacing="2">OUTSIDE THE ORDINARY.</text><text y="226" font-size="9" letter-spacing="1">EQUIPMENT FOR YOUR OWN PATH</text><path d="M280 10h30v30m-30 0 30-30" fill="none" stroke="#151918" stroke-width="4"/></g>
+<path d="M35 80v230l155 107V191Z" fill="#151918" opacity=".1"/>
+<g transform="matrix(.68,.49,0,1,62,150)" fill="#151918" font-family="Arial" font-size="14" letter-spacing="3"><text>GO YOUR</text><text y="23">OWN WAY.</text></g></g>
+<text x="66" y="700" fill="#42443c" font-family="Arial" font-size="10" letter-spacing="3">OFF/GRID® — IDENTITY SYSTEM</text><text x="845" y="700" fill="#42443c" font-family="Arial" font-size="10">CONCEPT / 01</text><rect width="1000" height="760" fill="transparent" filter="url(#grain)"/>
+</svg>

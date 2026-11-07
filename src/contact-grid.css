@@ -1,0 +1,6 @@
+.contact-section { isolation:isolate; }
+.contact-section>.contact-cursor-grid { position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0; }
+.contact-section .contact-glow { display:none; }
+.contact-inner { position:relative;z-index:1; }
+.contact-main .contact-title,.contact-main .email-link { position:relative;z-index:1; }
+.contact-action { z-index:1; }

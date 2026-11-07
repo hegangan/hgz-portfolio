@@ -1,0 +1,10 @@
+.text-pressure{display:inline-block;position:relative;font:inherit;line-height:inherit;letter-spacing:inherit;vertical-align:baseline;user-select:none}
+.pressure-content{display:inline;white-space:inherit}
+.pressure-cell{position:relative;display:inline-block;vertical-align:baseline;font-weight:var(--pressure-base-weight);letter-spacing:inherit}
+.pressure-ghost{visibility:hidden;pointer-events:none;font-weight:var(--pressure-base-weight)}
+.pressure-glyph{position:absolute;left:0;top:0;display:block;transform-origin:50% 58%;white-space:pre;will-change:transform;font-weight:var(--pressure-base-weight);pointer-events:none}
+.pressure-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(prefers-reduced-motion:reduce){.pressure-glyph{will-change:auto}}
+
+/* Reserve enough tracking for pressure without merging Chinese strokes. */
+.text-pressure:not(.intro-aigc):not(.intro-role-name){letter-spacing:-.025em}

@@ -1,0 +1,8 @@
+
+.tech-heading .tech-text{position:absolute;inset:-20px;display:block;touch-action:pan-y;user-select:none;z-index:1}
+.tech-heading .tech-text-canvas{display:block;width:100%;height:100%}
+.tech-heading .pressure-ghost{visibility:visible}
+.tech-heading:has(.tech-text-canvas[data-ready]) .pressure-ghost{visibility:hidden}
+.tech-heading{font-weight:var(--pressure-base-weight)}
+.tech-heading .pressure-cell{font-weight:inherit}
+

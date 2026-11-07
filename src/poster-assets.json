@@ -1,0 +1,146 @@
+{
+  "showreel": {
+    "src": "/images/posters/showreel.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "个人能力展示 — 创作精选"
+  },
+  "aviation": {
+    "src": "/images/posters/aviation.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "东方航空 — 宠物进舱服务2.0"
+  },
+  "konfu": {
+    "src": "/images/posters/konfu.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "康夫吹风机广告"
+  },
+  "translator": {
+    "src": "/images/posters/translator.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "音诺AI翻译器广告"
+  },
+  "wedding-lifetimes": {
+    "src": "/images/posters/wedding-lifetimes.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "AI婚礼片 — 前世今生"
+  },
+  "wedding-promo": {
+    "src": "/images/posters/wedding-promo.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "婚礼宣传片 — 云上之约"
+  },
+  "mother": {
+    "src": "/images/posters/mother.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "阿尔兹海默症母亲"
+  },
+  "photograph": {
+    "src": "/images/posters/photograph.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "照片"
+  },
+  "ink-cg": {
+    "src": "/images/posters/ink-cg.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "水墨CG — 墨境交锋"
+  },
+  "toy-cg": {
+    "src": "/images/posters/toy-cg.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "玩偶公仔产品CG"
+  },
+  "toy-showroom": {
+    "src": "/images/posters/toy-showroom.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "玩偶公仔展厅宣传"
+  },
+  "catzilla": {
+    "src": "/images/posters/catzilla.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "猫斯拉多多 — 奇境冒险"
+  },
+  "music-video": {
+    "src": "/images/posters/music-video.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "MV — 光影律动"
+  },
+  "drama-ep01": {
+    "src": "/images/posters/drama-ep01.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "一夜变老 — 第一集"
+  },
+  "drama-ep02": {
+    "src": "/images/posters/drama-ep02.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "一夜变老 — 第二集"
+  },
+  "drama-ep03": {
+    "src": "/images/posters/drama-ep03.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "一夜变老 — 第三集"
+  },
+  "drama-ep04": {
+    "src": "/images/posters/drama-ep04.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "一夜变老 — 第四集"
+  },
+  "live-auto": {
+    "src": "/images/posters/live-auto.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "车企宣传 — 梅赛德斯奔驰"
+  },
+  "live-factory-mov": {
+    "src": "/images/posters/live-factory-mov.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "工厂宣传片 — MEDE汽车服务"
+  },
+  "live-factory-mp4": {
+    "src": "/images/posters/live-factory-mp4.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "工厂宣传片 — 生产现场"
+  },
+  "vfx-01": {
+    "src": "/images/posters/vfx-01.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "AI影视特效 — 金龙环身"
+  },
+  "vfx-02": {
+    "src": "/images/posters/vfx-02.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "AI影视特效 — 金色掌印"
+  },
+  "vfx-03": {
+    "src": "/images/posters/vfx-03.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "AI影视特效 — 大殿金龙"
+  },
+  "vfx-04": {
+    "src": "/images/posters/vfx-04.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "AI影视特效 — 赤焰残影"
+  }
+}

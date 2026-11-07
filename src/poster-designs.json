@@ -1,0 +1,397 @@
+{
+  "showreel": {
+    "reviewFrame": 7,
+    "mood": "epic",
+    "title": {
+      "zh": [
+        "创作精选"
+      ],
+      "en": [
+        "CREATIVE",
+        "SHOWREEL"
+      ]
+    },
+    "accent": "#f29367",
+    "position": "72% 36%",
+    "selectionReason": "巨龙面部与红色光效清晰，主体突出，适合合集的电影主视觉。"
+  },
+  "aviation": {
+    "reviewFrame": 11,
+    "mood": "commercial",
+    "title": {
+      "zh": [
+        "让陪伴",
+        "一起起飞"
+      ],
+      "en": [
+        "TOGETHER",
+        "ABOVE THE CLOUDS"
+      ]
+    },
+    "accent": "#afcbe7",
+    "position": "62% 32%",
+    "selectionReason": "机舱窗边人物情绪明确，视线和留位适合航空服务主题。"
+  },
+  "konfu": {
+    "reviewFrame": 9,
+    "mood": "commercial",
+    "title": {
+      "zh": [
+        "康夫",
+        "风起之间"
+      ],
+      "en": [
+        "CONFU",
+        "A LIGHTER TOUCH"
+      ]
+    },
+    "accent": "#d6c0e8",
+    "position": "48% 30%",
+    "selectionReason": "人物、吹风机与发丝同时清楚，产品使用关系完整。"
+  },
+  "translator": {
+    "reviewFrame": 8,
+    "mood": "tech",
+    "title": {
+      "zh": [
+        "音诺",
+        "听见彼此"
+      ],
+      "en": [
+        "YINNUO",
+        "HEAR EACH OTHER"
+      ]
+    },
+    "accent": "#91c9df",
+    "position": "52% 29%",
+    "selectionReason": "持机人物正面为视觉中心，能同时传达产品和影片情境。"
+  },
+  "wedding-lifetimes": {
+    "reviewFrame": 7,
+    "mood": "romance",
+    "title": {
+      "zh": [
+        "前世今生"
+      ],
+      "en": [
+        "ACROSS",
+        "LIFETIMES"
+      ]
+    },
+    "accent": "#e8c9b8",
+    "position": "50% 30%",
+    "selectionReason": "暖光中的两人近景，主体集中，情绪与光线更适合竖幅爱情海报。"
+  },
+  "wedding-promo": {
+    "reviewFrame": 10,
+    "mood": "romance",
+    "title": {
+      "zh": [
+        "云上之约"
+      ],
+      "en": [
+        "A PROMISE",
+        "ABOVE THE CLOUDS"
+      ]
+    },
+    "accent": "#f0d4a9",
+    "position": "50% 38%",
+    "selectionReason": "新人背影与金色场景轴线构成对称画面，适合婚礼海报。"
+  },
+  "ink-cg": {
+    "reviewFrame": 5,
+    "mood": "ink",
+    "title": {
+      "zh": [
+        "墨境交锋"
+      ],
+      "en": [
+        "CLASH",
+        "IN INK"
+      ]
+    },
+    "accent": "#81c9a6",
+    "position": "50% 32%",
+    "selectionReason": "怪物面部、眼睛与墨色体积最明确，冲突感强。"
+  },
+  "toy-cg": {
+    "reviewFrame": 8,
+    "mood": "playful",
+    "title": {
+      "zh": [
+        "玩偶奇境"
+      ],
+      "en": [
+        "LITTLE WORLDS",
+        "BIG IMAGINATION"
+      ]
+    },
+    "accent": "#a9d9df",
+    "position": "55% 36%",
+    "selectionReason": "蓝色玩偶正面完整，主角突出且场景简洁。"
+  },
+  "toy-showroom": {
+    "reviewFrame": 6,
+    "mood": "playful",
+    "title": {
+      "zh": [
+        "掌心的",
+        "小小世界"
+      ],
+      "en": [
+        "A WORLD",
+        "IN YOUR HAND"
+      ]
+    },
+    "accent": "#e6bdd5",
+    "position": "51% 30%",
+    "selectionReason": "手掌上的粉色玩偶为单一主角，具有亲近感和产品识别度。"
+  },
+  "mother": {
+    "reviewFrame": 10,
+    "mood": "emotional",
+    "title": {
+      "zh": [
+        "阿尔兹海默症",
+        "母亲"
+      ],
+      "en": [
+        "A MOTHER WITH",
+        "ALZHEIMER'S"
+      ]
+    },
+    "accent": "#ddc7ad",
+    "position": "66% 30%",
+    "selectionReason": "门边母亲神情与居家光线温和，使用人物情绪而非冲突动作。"
+  },
+  "photograph": {
+    "reviewFrame": 1,
+    "mood": "emotional",
+    "title": {
+      "zh": [
+        "照片"
+      ],
+      "en": [
+        "THE",
+        "PHOTOGRAPH"
+      ]
+    },
+    "accent": "#e3c9ae",
+    "position": "49% 30%",
+    "selectionReason": "老人摘下眼镜的近景，眼神与面部情绪清楚，符合记忆主题。"
+  },
+  "catzilla": {
+    "reviewFrame": 0,
+    "mood": "epic",
+    "title": {
+      "zh": [
+        "猫斯拉多多"
+      ],
+      "en": [
+        "CATZILLA",
+        "DUODUO"
+      ]
+    },
+    "accent": "#e8826e",
+    "position": "45% 32%",
+    "selectionReason": "保留猫与巨龙直接互动的91.3秒关键帧，比均匀采样中的远景更有识别度。"
+  },
+  "music-video": {
+    "reviewFrame": 1,
+    "mood": "music",
+    "title": {
+      "zh": [
+        "光影律动"
+      ],
+      "en": [
+        "LIGHT",
+        "AND RHYTHM"
+      ]
+    },
+    "accent": "#b5c8ed",
+    "position": "50% 28%",
+    "selectionReason": "人物正面与银色装饰对称，具有明确时尚视觉中心。"
+  },
+  "drama-ep01": {
+    "reviewFrame": 3,
+    "mood": "drama",
+    "title": {
+      "zh": [
+        "AI短剧",
+        "第一集"
+      ],
+      "en": [
+        "AI SHORT DRAMA",
+        "EPISODE 01"
+      ]
+    },
+    "accent": "#e7c8ae",
+    "position": "50% 30%",
+    "selectionReason": "婚宴群像交代本集场景，人物不处于眨眼或运动模糊时刻。"
+  },
+  "drama-ep02": {
+    "reviewFrame": 3,
+    "mood": "drama",
+    "title": {
+      "zh": [
+        "AI短剧",
+        "第二集"
+      ],
+      "en": [
+        "AI SHORT DRAMA",
+        "EPISODE 02"
+      ]
+    },
+    "accent": "#e7c8ae",
+    "position": "50% 29%",
+    "selectionReason": "酒杯与人物正面形成叙事焦点，保持系列人物与暖光统一。"
+  },
+  "drama-ep03": {
+    "reviewFrame": 3,
+    "mood": "drama",
+    "title": {
+      "zh": [
+        "AI短剧",
+        "第三集"
+      ],
+      "en": [
+        "AI SHORT DRAMA",
+        "EPISODE 03"
+      ]
+    },
+    "accent": "#e7c8ae",
+    "position": "50% 30%",
+    "selectionReason": "情侣近景互动，面部和目光关系清楚，延续系列视觉。"
+  },
+  "drama-ep04": {
+    "reviewFrame": 10,
+    "mood": "drama",
+    "title": {
+      "zh": [
+        "AI短剧",
+        "第四集"
+      ],
+      "en": [
+        "AI SHORT DRAMA",
+        "EPISODE 04"
+      ]
+    },
+    "accent": "#e7c8ae",
+    "position": "50% 32%",
+    "selectionReason": "孩子笑容与救生衣构成情感转折，画面明亮且主体清晰。"
+  },
+  "live-auto": {
+    "reviewFrame": 3,
+    "mood": "live",
+    "title": {
+      "zh": [
+        "梅赛德斯",
+        "奔驰"
+      ],
+      "en": [
+        "MERCEDES",
+        "BENZ"
+      ]
+    },
+    "accent": "#c2cbd2",
+    "position": "50% 31%",
+    "selectionReason": "车辆正面与传统建筑对称，车标及车身结构清晰。"
+  },
+  "live-factory-mov": {
+    "reviewFrame": 8,
+    "mood": "live",
+    "title": {
+      "zh": [
+        "MEDE",
+        "汽车服务"
+      ],
+      "en": [
+        "MEDE",
+        "AUTOMOTIVE SERVICE"
+      ]
+    },
+    "accent": "#92d8e3",
+    "position": "50% 34%",
+    "selectionReason": "蓝色跑车正面与车门构成完整、克制的品牌主视觉。"
+  },
+  "live-factory-mp4": {
+    "reviewFrame": 4,
+    "mood": "live",
+    "title": {
+      "zh": [
+        "生产现场"
+      ],
+      "en": [
+        "INSIDE",
+        "PRODUCTION"
+      ]
+    },
+    "accent": "#adcfcb",
+    "position": "45% 30%",
+    "selectionReason": "操作人员与设备呈现真实生产关系，避免片尾标识或运动模糊。"
+  },
+  "vfx-01": {
+    "reviewFrame": 2,
+    "mood": "vfx",
+    "title": {
+      "zh": [
+        "金龙环身"
+      ],
+      "en": [
+        "GOLDEN",
+        "DRAGON"
+      ]
+    },
+    "accent": "#edc16c",
+    "position": "50% 34%",
+    "selectionReason": "金龙头部、龙身和人物关系完整，特效达到清楚可辨的形态。"
+  },
+  "vfx-02": {
+    "reviewFrame": 8,
+    "mood": "vfx",
+    "title": {
+      "zh": [
+        "金色掌印"
+      ],
+      "en": [
+        "GOLDEN",
+        "PALM"
+      ]
+    },
+    "accent": "#edc16c",
+    "position": "50% 34%",
+    "selectionReason": "掌印完成展开、细节明亮，避免效果尚未出现或消散的帧。"
+  },
+  "vfx-03": {
+    "reviewFrame": 10,
+    "mood": "vfx",
+    "title": {
+      "zh": [
+        "大殿金龙"
+      ],
+      "en": [
+        "DRAGON",
+        "IN THE HALL"
+      ]
+    },
+    "accent": "#edc16c",
+    "position": "50% 35%",
+    "selectionReason": "金龙形态完整，群像与建筑轴线形成大场景层次。"
+  },
+  "vfx-04": {
+    "reviewFrame": 3,
+    "mood": "vfx",
+    "title": {
+      "zh": [
+        "赤焰残影"
+      ],
+      "en": [
+        "CRIMSON",
+        "APPARITION"
+      ]
+    },
+    "accent": "#ed8978",
+    "position": "50% 34%",
+    "selectionReason": "红黑特效形成完整圆弧，画面张力强且与人物关系明确。"
+  }
+}

@@ -1,0 +1,39 @@
+/* Photography uses full original compositions; the new contact sheets are assembled in CSS. */
+.profile-portrait { transform:none; }
+.profile-photo>img { object-position:center center; }
+.photography-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:45px 30px;align-items:start; }
+.photography-card { padding:0;text-align:left;min-width:0;transition:translate .35s; }
+.photography-card-sheet { position:relative;background:var(--paper);border:1px solid var(--rule);padding:0;transition:box-shadow .35s,border-color .3s; }
+.photo-sheet { width:100%;overflow:hidden;line-height:0; }
+.photo-sheet img { display:block;width:100%;height:auto;filter:none!important;mix-blend-mode:normal; }
+.photo-sheet.collage { display:grid;gap:0;align-items:start; }
+.collage-pomelo { grid-template-columns:13fr 16fr; }
+.collage-gb350 { grid-template-columns:96fr 59fr; }
+.photo-sheet-column { min-width:0; }
+.photography-open { position:absolute;bottom:16px;right:16px;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--on-accent);font-size:25px;transition:scale .3s,translate .3s; }
+.photography-card .collection-film-meta>span:last-child { color:var(--accent);font-size:23px; }
+.collection-film.is-portrait .collection-film-image { aspect-ratio:9/16; }
+@media(min-width:1000px){#collection-panel-vfx .collection-film-grid{grid-template-columns:repeat(4,minmax(0,1fr));}}
+.photo-dialog { position:fixed;inset:0;width:min(1080px,94vw);max-width:none;height:min(94svh,1500px);max-height:94svh;padding:0;border:1px solid var(--rule);border-radius:5px;background:var(--paper);color:var(--ink);overflow:auto;overscroll-behavior:contain; }
+.photo-dialog::backdrop { background:#071011d9;backdrop-filter:blur(12px); }
+.photo-dialog-inner { padding:28px; }
+.photo-dialog-heading { display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:26px; }
+.photo-dialog-heading span { color:var(--muted);font-size:12px;letter-spacing:1px; }
+.photo-dialog-heading h2 { font-size:32px;line-height:1.4;margin:10px 0 0;letter-spacing:-.04em;font-weight:550; }
+.photo-dialog-close { position:sticky;top:18px;flex-shrink:0;display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--rule);border-radius:50%;font-size:30px;z-index:2; }
+.photo-dialog-navigation { display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:26px;margin-top:26px;border-top:1px solid var(--rule);font-size:12px;color:var(--muted); }
+.photo-dialog-navigation>button { color:var(--accent);padding:10px 0; }
+@media(hover:hover) and (pointer:fine){
+ .photography-card:hover { translate:0 -9px; }
+ .photography-card:hover .photography-card-sheet { border-color:var(--accent);box-shadow:0 20px 35px var(--shadow); }
+ .photography-card:hover .photography-open { scale:1.2;translate:3px -3px; }
+ .photography-card:hover strong { color:var(--accent); }
+ .photo-dialog-close:hover { background:var(--accent);color:var(--on-accent); }
+}
+@media(max-width:640px){
+ .photography-grid { grid-template-columns:1fr;gap:35px; }
+ .photo-dialog-inner { padding:18px; }
+ .photo-dialog-heading h2 { font-size:25px; }
+ .photo-dialog-heading span,.photo-dialog-navigation { font-size:10px; }
+}
+@media(prefers-reduced-motion:reduce){.photography-card:hover {translate:none;}.photography-open {transition:none;}}

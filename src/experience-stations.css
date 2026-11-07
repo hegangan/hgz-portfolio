@@ -1,0 +1,144 @@
+
+.station-practice{padding-block:105px 85px;background:var(--paper);color:var(--ink);overflow:clip}
+.station-practice .chapter-topline{margin-bottom:68px;padding-top:23px}
+.station-practice .station-heading{display:flex;justify-content:space-between;align-items:center;gap:60px;margin-bottom:62px}
+.station-practice .station-heading h2{font-size:clamp(42px,4.3vw,72px);font-weight:650;line-height:1.2;letter-spacing:-.055em;margin:0;display:flex;align-items:baseline;flex-wrap:wrap;gap:.18em}
+.station-practice .station-heading h2>span{color:var(--accent)}
+.station-practice .station-heading>p{font-size:clamp(13px,1vw,16px);line-height:1.9;max-width:330px;color:var(--muted);margin:0}
+.station-practice .station-route{position:relative;padding:0 12px 45px}
+.station-practice .station-route-line{position:absolute;left:16.67%;right:16.67%;height:2px;top:30px;background:var(--rule);pointer-events:none}
+.station-practice .station-route-line>i{display:block;height:100%;width:calc(var(--station-progress)*100%);background:var(--accent);transition:width .55s cubic-bezier(.22,.7,.2,1)}
+.station-practice .station-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px;position:relative}
+.station-practice .station-tabs>button{position:relative;display:flex;align-items:center;flex-direction:column;gap:0;min-width:0;padding:0 12px 8px;border:0;background:none;color:var(--ink);text-align:center;border-radius:4px;transition:color .25s,transform .3s;cursor:pointer}
+.station-practice .station-dot{position:relative;display:grid;place-items:center;height:60px;width:60px;flex-shrink:0;border:1px solid var(--rule);border-radius:50%;background:var(--paper);font-size:18px;font-weight:450;color:var(--muted);box-shadow:0 0 0 9px var(--paper);transition:color .3s,background .3s,border-color .3s,box-shadow .3s,transform .3s}
+.station-practice .station-tabs>button>strong{display:block;font-size:clamp(17px,1.55vw,25px);font-weight:500;line-height:1.5;margin-top:22px;max-width:360px;letter-spacing:-.025em;text-wrap:balance}
+.station-practice .station-date{display:block;font-size:clamp(10px,.8vw,13px);color:var(--muted);line-height:1.6;margin-top:9px;letter-spacing:.2px}
+.station-practice .station-tabs>button[aria-selected="true"] .station-dot{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.station-practice .station-tabs>button:hover .station-dot{transform:translateY(-4px) scale(1.08);box-shadow:0 0 0 9px var(--paper),0 0 0 10px var(--accent)}
+.station-practice .station-tabs>button:hover>strong{color:var(--accent)}
+.station-practice .station-tabs>button:active .station-dot{transform:scale(.96)}
+.station-practice .station-tabs>button:focus-visible,.station-practice .station-detail:focus-visible{outline:2px solid var(--accent);outline-offset:8px}
+.station-practice .station-detail{border:1px solid var(--rule);background:var(--raised);min-width:0}
+.station-practice .station-panel-main{display:grid;grid-template-columns:minmax(110px,.45fr) minmax(0,1.15fr) minmax(0,1.15fr);gap:clamp(25px,3.8vw,65px);align-items:center;padding:clamp(35px,4vw,65px);min-height:285px;animation:station-content-enter .4s ease both}
+.station-practice .station-serial{font-size:clamp(90px,9vw,150px);font-weight:600;letter-spacing:-.085em;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums;align-self:center}
+.station-practice .station-kicker{display:block;color:var(--accent);font-size:11px;line-height:1.8;letter-spacing:.5px}
+.station-practice .station-identity h3{font-size:clamp(26px,2.7vw,44px);font-weight:600;line-height:1.25;letter-spacing:-.05em;margin:19px 0 16px;text-wrap:balance}
+.station-practice .station-role{font-size:clamp(14px,1.2vw,20px);line-height:1.75;color:var(--ink);margin:0}
+.station-practice .station-company{font-size:12px;line-height:1.9;color:var(--soft);margin:14px 0 0}
+.station-practice .station-narrative>p{font-size:clamp(13px,1vw,16px);line-height:1.95;color:var(--muted);margin:0}
+.station-practice .station-tags{list-style:none;padding:0;margin:23px 0 0;display:flex;flex-wrap:wrap;gap:7px}
+.station-practice .station-tags>li{border:1px solid var(--rule);border-radius:3px;padding:5px 9px;color:var(--muted);font-size:10px;line-height:1.6}
+.station-practice .station-awards{list-style:none;padding:0;margin:25px 0 0;color:var(--soft);font-size:11px;line-height:1.9}
+.station-practice .station-awards>li+li{margin-top:4px}
+.station-practice .station-responsibilities{border-top:1px solid var(--rule);margin:0 clamp(35px,4vw,65px)}
+.station-practice .station-responsibilities>summary,.station-practice .station-toolkit summary{display:flex;align-items:center;justify-content:space-between;list-style:none;cursor:pointer;color:var(--muted);font-size:12px;letter-spacing:.4px;gap:25px;transition:color .25s,background .25s}
+.station-practice .station-responsibilities>summary{padding:20px 0}
+.station-practice summary::-webkit-details-marker{display:none}
+.station-practice summary>i{font-size:22px;font-style:normal;color:var(--accent);line-height:1;font-weight:300;transition:transform .3s}
+.station-practice details[open]>summary>i{transform:rotate(45deg)}
+.station-practice summary:hover{color:var(--accent)}
+.station-practice summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.station-practice .station-responsibilities dl{display:grid;grid-template-columns:1fr 1fr;column-gap:45px;row-gap:23px;margin:12px 0 34px}
+.station-practice .station-responsibilities dt{font-size:14px;font-weight:600;line-height:1.8;color:var(--ink)}
+.station-practice .station-responsibilities dd{font-size:13px;line-height:1.95;color:var(--muted);margin:8px 0 0}
+.station-practice .station-bottomline{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-top:37px;padding-top:24px;border-top:1px solid var(--rule);color:var(--soft)}
+.station-practice .station-bottomline p{font-size:11px;line-height:1.9;margin:0}
+.station-practice .station-bottomline>span{font-size:11px;letter-spacing:1.3px;white-space:nowrap;color:var(--accent);font-variant-numeric:tabular-nums}
+.station-practice .station-bottomline i{font-style:normal;margin-left:23px;font-size:20px}
+.station-practice .station-toolkit{margin-top:30px}
+.station-practice .station-toolkit summary{padding:16px 0}
+.station-practice .station-toolkit details>div{display:flex;flex-wrap:wrap;gap:10px;padding:10px 0 20px}
+.station-practice .station-toolkit details>div>span{font-size:12px;color:var(--muted);border:1px solid var(--rule);padding:9px 14px;border-radius:3px}
+.is-en .station-practice .station-tabs>button>strong{font-size:clamp(14px,1.4vw,22px)}
+.is-en .station-practice .station-identity h3{font-size:clamp(24px,2.1vw,36px);letter-spacing:-.035em}
+.is-en .station-practice .station-heading h2{font-size:clamp(40px,4vw,66px)}
+@keyframes station-content-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:1500px){.station-practice .station-panel-main{min-height:330px}}
+@media(max-width:1000px){
+.station-practice{padding-block:80px 60px}
+.station-practice .chapter-topline{margin-bottom:48px}
+.station-practice .station-heading{gap:35px;margin-bottom:47px}
+.station-practice .station-heading>p{max-width:260px}
+.station-practice .station-panel-main{grid-template-columns:100px minmax(0,1fr);gap:27px}
+.station-practice .station-narrative{grid-column:2}
+.station-practice .station-serial{grid-row:1 / span 2;align-self:start}
+.station-practice .station-identity h3{margin-top:13px}
+.station-practice .station-narrative>p{max-width:600px}
+}
+@media(max-width:650px){
+.station-practice{padding-block:65px 45px}
+.station-practice .chapter-topline{margin-bottom:35px;font-size:9px;gap:15px}
+.station-practice .chapter-topline>span:last-child{font-size:7px;max-width:145px}
+.station-practice .station-heading{display:block;margin-bottom:35px}
+.station-practice .station-heading h2{font-size:36px;gap:.06em;letter-spacing:-.06em}
+.is-en .station-practice .station-heading h2{font-size:38px}
+.station-practice .station-heading>p{font-size:12px;max-width:300px;margin-top:19px}
+.station-practice .station-route{padding:0 0 28px}
+.station-practice .station-route-line{top:22px}
+.station-practice .station-tabs{gap:5px}
+.station-practice .station-tabs>button{padding:0 3px 5px}
+.station-practice .station-dot{width:44px;height:44px;font-size:14px;box-shadow:0 0 0 5px var(--paper)}
+.station-practice .station-tabs>button>strong{font-size:13px;line-height:1.55;margin-top:17px;max-width:120px}
+.is-en .station-practice .station-tabs>button>strong{font-size:11px}
+.station-practice .station-date{font-size:9px;margin-top:7px;letter-spacing:0}
+.station-practice .station-panel-main{padding:25px 22px;grid-template-columns:51px minmax(0,1fr);gap:20px 17px;min-height:310px}
+.station-practice .station-serial{font-size:62px;grid-row:1;line-height:1.1}
+.station-practice .station-kicker{font-size:9px;letter-spacing:0}
+.station-practice .station-identity h3{font-size:25px;margin:11px 0}
+.is-en .station-practice .station-identity h3{font-size:23px}
+.station-practice .station-role{font-size:12px}
+.station-practice .station-company{font-size:10px;margin-top:10px}
+.station-practice .station-narrative{grid-column:1 / -1}
+.station-practice .station-narrative>p{font-size:13px}
+.station-practice .station-tags{margin-top:18px;gap:6px}
+.station-practice .station-tags>li{font-size:9px;padding:4px 7px}
+.station-practice .station-awards{margin-top:18px;font-size:10px}
+.station-practice .station-responsibilities{margin-inline:22px}
+.station-practice .station-responsibilities dl{grid-template-columns:1fr;gap:17px}
+.station-practice .station-responsibilities>summary{font-size:11px}
+.station-practice .station-bottomline{align-items:start;margin-top:25px;padding-top:20px;gap:15px}
+.station-practice .station-bottomline p{font-size:10px;max-width:220px}
+.station-practice .station-bottomline>span{font-size:10px}
+.station-practice .station-bottomline i{display:none}
+.station-practice .station-toolkit{margin-top:20px}
+}
+@media(prefers-reduced-motion:reduce){.station-practice .station-panel-main{animation:none}.station-practice .station-route-line>i,.station-practice .station-dot{transition:none}}
+
+/* Keep the selected composition compact despite legacy chapter defaults. */
+.practice-chapter.station-practice{padding-block:70px 65px}
+.station-practice .chapter-topline{margin-bottom:48px}
+.station-practice .station-heading{margin-bottom:48px}
+.station-practice .station-route{padding-bottom:36px}
+@media(max-width:650px){.practice-chapter.station-practice{padding-block:55px 40px}.station-practice .chapter-topline{margin-bottom:35px}.station-practice .station-heading{margin-bottom:35px}.station-practice .station-route{padding-bottom:28px}}
+
+.station-practice .station-education-project{font-size:11px;line-height:1.9;color:var(--soft);margin-top:18px}
+.station-practice .career-dossier{border-top:1px solid var(--rule);padding:35px clamp(35px,4vw,65px)}
+.station-practice .career-dossier>header{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:25px}
+.station-practice .career-dossier h4{font-size:23px;line-height:1.5;letter-spacing:-.03em;margin:8px 0 0;font-weight:600}
+.station-practice .career-dossier>header>p{font-size:12px;line-height:1.9;color:var(--muted);margin:0}
+.station-practice .career-case-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+.station-practice .career-case{border:1px solid var(--rule);background:var(--paper);padding:24px}
+.station-practice .career-case>summary{display:grid;grid-template-columns:25px minmax(0,1fr) 18px;align-items:start;gap:15px}
+.station-practice .career-case-index{font-size:12px;color:var(--accent);padding-top:5px}
+.station-practice .career-case h5{font-size:20px;line-height:1.55;font-weight:600;letter-spacing:-.025em;margin:0 0 9px}
+.station-practice .career-case summary>div>span{display:block;font-size:11px;line-height:1.9;color:var(--accent)}
+.station-practice .career-case summary p{font-size:12px;line-height:1.95;color:var(--muted);margin:13px 0 0}
+.station-practice .career-case-body{padding-top:25px}
+.station-practice .career-case dl,.station-practice .career-skill dl{margin:0}
+.station-practice .career-case dl>div+div{margin-top:24px}
+.station-practice .career-dossier dt{font-size:13px;font-weight:600;line-height:1.85;color:var(--ink)}
+.station-practice .career-dossier dd{font-size:13px;line-height:2;color:var(--muted);margin:8px 0 0}
+.station-practice .career-case-body>button{display:flex;align-items:center;justify-content:space-between;gap:25px;width:100%;font-size:12px;border-top:1px solid var(--rule);padding:18px 0 0;margin-top:25px;color:var(--accent)}
+.station-practice .career-case-body>button>span{font-size:20px}
+.station-practice .career-workflow{margin-top:25px;border-top:1px solid var(--rule)}
+.station-practice .career-workflow>summary{padding:24px 0 0}
+.station-practice .career-workflow h4{font-size:21px;margin-top:6px}
+.station-practice .career-workflow ol{list-style:none;padding:0;margin:30px 0;display:grid;grid-template-columns:1fr 1fr;gap:28px 45px}
+.station-practice .career-workflow li{display:grid;grid-template-columns:35px 1fr;gap:15px}
+.station-practice .career-workflow li>span{font-size:20px;font-weight:400;color:var(--accent)}
+.station-practice .career-workflow h5{font-size:15px;line-height:1.8;margin:0;font-weight:600}
+.station-practice .career-workflow p{font-size:13px;line-height:1.95;color:var(--muted);margin:9px 0 0}
+.station-practice .career-skill{border-top:1px solid var(--rule);padding-top:20px}
+.station-practice .career-skill dl{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-top:23px}
+@media(max-width:900px){.station-practice .career-case-grid{grid-template-columns:1fr}.station-practice .career-dossier>header{display:block}.station-practice .career-dossier>header>p{margin-top:15px}}
+@media(max-width:650px){.station-practice .career-dossier{padding:25px 22px}.station-practice .career-dossier h4{font-size:20px}.station-practice .career-case{padding:20px 16px}.station-practice .career-case>summary{grid-template-columns:20px minmax(0,1fr) 15px;gap:10px}.station-practice .career-case h5{font-size:17px}.station-practice .career-workflow ol,.station-practice .career-skill dl{grid-template-columns:1fr;gap:24px}.station-practice .career-workflow h4{font-size:18px}}

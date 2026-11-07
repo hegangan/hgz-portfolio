@@ -1,0 +1,6 @@
+.star-interactive-target{isolation:isolate}
+.star-click-canvas{position:absolute!important;top:-48px!important;left:-48px!important;width:calc(100% + 96px)!important;height:calc(100% + 96px)!important;z-index:12!important;pointer-events:none!important;border:0!important;border-radius:0!important;padding:0!important;background:transparent!important;box-shadow:none!important;transform:none!important}
+.star-interactive-target:active{--star-pressed:1}
+@media(pointer:fine){.star-interactive-target{cursor:pointer}}
+
+.star-click-frame{position:absolute;inset:0;display:block!important;border-radius:inherit;overflow:hidden;pointer-events:none;z-index:12;padding:0!important;background:none!important}

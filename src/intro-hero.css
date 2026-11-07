@@ -1,0 +1,78 @@
+/* H.GZ — a portrait-led editorial cover, in the existing two theme palettes. */
+.portrait-hero{height:100svh;min-height:720px;max-height:1380px;position:relative;isolation:isolate;overflow:hidden;background:var(--paper);display:flex;flex-direction:column}
+.portrait-hero-ambient{position:absolute;inset:0;z-index:-1;width:100%;height:100%;object-fit:cover;opacity:.008;pointer-events:none}
+.portrait-hero>.portrait-hero-grid{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.portrait-hero-stage{position:relative;flex:1;margin-top:112px;min-height:0;z-index:1}
+.portrait-hero-topline{position:absolute;left:0;right:0;top:14px;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:30px;font-size:9px;letter-spacing:1px;font-weight:500}
+.portrait-hero-topline>span{display:flex;gap:13px;align-items:center}
+.portrait-hero-topline>span>i{font-style:normal;font-size:21px;font-weight:400;color:var(--accent)}
+.portrait-hero-topline>a{display:flex;gap:10px;align-items:center;font-size:8px;color:var(--muted)}
+.portrait-hero-topline>a>span:last-child{font-size:25px;color:var(--accent);margin-left:16px;line-height:1}
+.portrait-hero-title{position:absolute;left:0;right:0;top:48px;z-index:1;margin:0;font-size:min(24vw,34svh,390px);line-height:.84;letter-spacing:-.025em;color:var(--ink);font-weight:900}
+.portrait-hero .portfolio-word{display:block;width:100%;font-family:Impact,'Arial Narrow','Arial Black',sans-serif;font-weight:900;letter-spacing:-.025em;line-height:.84}
+.portfolio-word>.pressure-content{display:flex;justify-content:space-between;align-items:baseline;width:100%}
+.portfolio-word .pressure-cell{flex-shrink:0}
+.portrait-hero-side{position:absolute;z-index:4;writing-mode:vertical-rl;font-size:7px;letter-spacing:1.1px;line-height:1.4;color:var(--soft);display:flex;align-items:center;gap:14px;pointer-events:none}
+.portrait-hero-side:before{content:'';width:1px;height:29px;background:var(--rule)}
+.portrait-hero-side-left{left:-30px;top:78px;transform:rotate(180deg)}
+.portrait-hero-side-right{right:-26px;bottom:39px}
+.portrait-hero-disc{position:absolute;right:10.5%;bottom:0;width:min(27vw,450px);aspect-ratio:1;background:var(--accent);border-radius:50%;z-index:0;opacity:1}
+.portrait-hero-person{position:absolute;right:3%;bottom:0;height:88%;z-index:3;display:flex;align-items:end;pointer-events:none}
+.portrait-hero-person>img{display:block;width:auto;height:100%;max-width:none;object-fit:contain;object-position:center bottom;filter:none!important;mix-blend-mode:normal!important;transform:none!important}
+.portrait-hero-copy{position:absolute;left:1.2%;top:48%;z-index:4;width:36%;max-width:510px}
+.portrait-hero-greeting{font-size:10px;letter-spacing:1.4px;font-weight:500}
+.portrait-hero-copy h2{font-size:clamp(43px,4.3vw,78px);font-weight:650;line-height:1.13;letter-spacing:-.045em;margin:12px 0 12px}
+.portrait-hero-role{font-size:15px;font-weight:500;line-height:1.5;letter-spacing:.2px;color:var(--accent);margin:0 0 16px}
+.portrait-hero-bio{font-size:12px;line-height:1.9;color:var(--muted);letter-spacing:.2px;margin:0;max-width:345px}
+.portrait-hero-salary{display:flex;gap:14px;align-items:baseline;border-top:1px solid var(--rule);padding-top:14px;margin-top:17px;width:max-content;max-width:100%;white-space:nowrap}
+.portrait-hero-salary>span{font-size:10px;color:var(--muted);letter-spacing:.5px}
+.portrait-hero-salary>strong{font-size:28px;font-weight:600;letter-spacing:-1.2px;line-height:1}
+.portrait-hero-salary>small{font-size:9px;color:var(--soft)}
+.portrait-hero-signature{font-size:12px;font-style:italic;letter-spacing:-.3px;margin-top:20px;display:flex;align-items:center;gap:15px;color:var(--soft)}
+.portrait-hero-signature>i{display:inline-block;width:45px;height:1px;background:var(--rule)}
+.portrait-hero-badge{position:absolute;right:0;bottom:18%;height:108px;width:108px;border-radius:50%;background:var(--paper);color:var(--ink);z-index:5;border:1px solid var(--rule);display:flex;flex-direction:column;justify-content:center;align-items:center;box-shadow:0 7px 25px var(--shadow);transition:transform .5s}
+.portrait-hero-badge>svg:first-child{position:absolute;inset:0;height:100%;width:100%;stroke:none;fill:var(--muted);transition:rotate 1.5s cubic-bezier(.16,1,.3,1)}
+.portrait-hero-badge>svg:first-child text{font-family:inherit;font-size:8.2px;letter-spacing:1.65px;font-weight:400}
+.portrait-hero-badge>span{font-size:10px;line-height:1.5;letter-spacing:.4px;text-align:center;color:var(--accent);margin-top:5px}
+.portrait-hero-badge>svg:last-child{width:13px;height:13px;margin-top:4px;color:var(--accent)}
+.portrait-hero-badge:hover{transform:translateY(-5px)}
+.portrait-hero-badge:hover>svg:first-child{rotate:90deg}
+.portrait-hero-footer{position:relative;z-index:5;min-height:80px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:35px;background:var(--paper)}
+.portrait-selected-label{font-size:17px;font-weight:550;line-height:1.05;letter-spacing:-.6px;display:flex;flex-direction:column;gap:5px}
+.portrait-selected-label>span{color:var(--accent)}
+.portrait-hero-footer>p{font-size:11px;line-height:1.7;color:var(--muted);margin:0}
+.portrait-hero-footer>p>span{display:block;font-size:8px;letter-spacing:1px;color:var(--soft);margin-top:5px}
+.portrait-hero-actions{display:flex;align-items:center;gap:30px}
+.portrait-hero-actions>button{display:flex;align-items:center;gap:8px;font-size:10px;padding:12px 0;color:var(--muted)}
+.portrait-hero-actions>button>svg{width:27px;height:27px;border:1px solid var(--rule);border-radius:50%;padding:7px}
+.portrait-hero-actions>a{display:flex;align-items:center;gap:30px;font-size:11px;padding:14px 0;color:var(--accent)}
+.portrait-hero-actions>a>svg{width:23px;height:23px;transition:transform .4s}
+.portrait-hero-actions>a:hover>svg{transform:translate(4px,-4px)}
+.portrait-hero-english .portrait-hero-copy h2{font-size:clamp(35px,3.6vw,64px)}
+.portrait-hero-english .portrait-hero-salary{gap:10px}
+@media(min-width:1600px){.portrait-hero-stage{margin-top:130px}.portrait-hero-topline{font-size:11px}.portrait-hero-topline>a{font-size:10px}.portrait-hero-title{top:62px}.portrait-hero-greeting{font-size:12px}.portrait-hero-role{font-size:20px}.portrait-hero-bio{font-size:15px;line-height:1.9;max-width:430px}.portrait-hero-salary{margin-top:22px;padding-top:20px}.portrait-hero-salary>strong{font-size:37px}.portrait-hero-salary>span{font-size:12px}.portrait-hero-salary>small{font-size:11px}.portrait-hero-signature{font-size:16px;margin-top:27px}.portrait-hero-badge{height:132px;width:132px;bottom:20%}.portrait-hero-badge>span{font-size:12px}.portrait-hero-footer{min-height:100px}.portrait-selected-label{font-size:23px}.portrait-hero-footer>p{font-size:14px}.portrait-hero-footer>p>span{font-size:10px}.portrait-hero-actions>a{font-size:13px}.portrait-hero-actions>button{font-size:12px}}
+@media(max-width:1100px){.portrait-hero-copy{width:39%}.portrait-hero-disc{right:10%;width:30vw}.portrait-hero-person{right:3%;height:84%}.portrait-hero-badge{height:90px;width:90px;right:-1%;bottom:22%}.portrait-hero-badge>span{font-size:8px}.portrait-hero-copy h2{font-size:46px}.portrait-hero-role{font-size:13px}.portrait-hero-bio{font-size:11px}.portrait-hero-signature{margin-top:16px}.portrait-hero-salary{gap:10px}.portrait-hero-footer>p{max-width:240px}.portrait-hero-actions{gap:20px}}
+@media(min-width:761px) and (max-height:750px){.portrait-hero-person{height:84%}.portrait-hero-copy{top:48%}.portrait-hero-copy h2{margin-block:9px;font-size:48px}.portrait-hero-role{margin-bottom:12px}.portrait-hero-bio{font-size:11px}.portrait-hero-salary{margin-top:13px;padding-top:12px}.portrait-hero-signature{margin-top:14px}}
+@media(max-width:760px){.portrait-hero{min-height:840px;height:100svh;max-height:none}.portrait-hero-stage{margin-top:100px}.portrait-hero-topline{font-size:7px;gap:10px}.portrait-hero-topline>span{gap:7px}.portrait-hero-topline>a{font-size:7px;max-width:140px;letter-spacing:0;gap:6px}.portrait-hero-topline>a>span:last-child{display:none}.portrait-hero-topline>span>i{font-size:17px}.portrait-hero-title{top:60px;font-size:21vw;line-height:.9}.portrait-hero .portfolio-word{letter-spacing:-.035em}.portrait-hero-copy{top:26%;left:0;width:100%;max-width:100%}.portrait-hero-copy h2{font-size:42px;margin:9px 0}.portrait-hero-role{font-size:13px;margin-bottom:12px}.portrait-hero-bio{font-size:11px;max-width:240px}.portrait-hero-salary{margin-top:13px;padding-top:12px;gap:12px}.portrait-hero-salary>strong{font-size:26px}.portrait-hero-signature{display:none}.portrait-hero-disc{width:63vw;right:-6%;bottom:-1%}.portrait-hero-person{height:42%;right:-4%;bottom:0}.portrait-hero-badge{display:none}.portrait-hero-badge>span{font-size:7px}.portrait-hero-side{display:none}.portrait-hero-footer{min-height:100px;display:grid;grid-template-columns:1fr auto;gap:15px;padding-block:15px}.portrait-selected-label{font-size:16px}.portrait-hero-footer>p{display:none}.portrait-hero-actions{flex-direction:column-reverse;align-items:end;gap:0}.portrait-hero-actions>a{padding:6px 0;font-size:10px;gap:18px}.portrait-hero-actions>button{font-size:9px;padding:4px 0;gap:7px}.portrait-hero-actions>button>svg{width:23px;height:23px;padding:6px}.portrait-hero-english .portrait-hero-copy h2{font-size:33px}}
+@media(prefers-reduced-motion:reduce){.portrait-hero-badge,.portrait-hero-badge>svg:first-child,.portrait-hero-actions>a>svg{transition:none}}
+
+/* Tighter, taller display type; the lower-left page now uses two editorial columns. */
+.portrait-hero-title{top:40px;font-size:min(24vw,33svh,390px);height:.84em}
+.portrait-hero .portfolio-word{width:max-content;display:inline-block;white-space:nowrap;letter-spacing:-.04em;transform:scaleX(var(--portfolio-fit,1)) scaleY(1.2);transform-origin:0 0}
+.portfolio-word>.pressure-content{display:inline-flex;justify-content:flex-start;gap:0;width:max-content;white-space:nowrap}
+.portrait-hero-copy{left:1.2%;top:auto;bottom:17px;width:60%;max-width:1040px}
+.portrait-hero-greeting{display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:10px;line-height:1.5;letter-spacing:1.3px;margin-bottom:10px;color:var(--muted)}
+.portrait-hero-greeting>span:last-child{font-size:9px;color:var(--soft);letter-spacing:1.8px}
+.portrait-profile-top{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:33px;align-items:center}
+.portrait-identity h2{font-size:64px;line-height:1.05;margin:6px 0 16px;letter-spacing:-.045em}
+.portrait-hero-role{font-size:17px;line-height:1.5;margin:0}
+.portrait-statement h3{font-size:35px;font-weight:600;line-height:1.25;letter-spacing:-.04em;margin:0 0 13px}
+.portrait-statement>p{font-size:14px;color:var(--muted);line-height:1.75;margin:0;letter-spacing:.1px}
+.portrait-hero-salary{width:100%;max-width:none;gap:17px;align-items:baseline;margin-top:21px;padding-top:16px}
+.portrait-hero-salary>span{font-size:11px;letter-spacing:.5px}.portrait-hero-salary>strong{font-size:38px;letter-spacing:-1.5px}.portrait-hero-salary>small{font-size:10px}.portrait-hero-salary>i{flex:1;height:1px;align-self:center;background:var(--rule);margin-inline:7px}.portrait-hero-salary>.portrait-salary-note{font-size:8px;letter-spacing:1.2px;color:var(--soft)}
+.portrait-hero-english .portrait-identity h2{font-size:40px;line-height:1.05;max-width:260px;overflow-wrap:anywhere}
+.portrait-hero-english .portrait-statement h3{font-size:26px;line-height:1.35}
+.portrait-hero-english .portrait-statement>p{font-size:13px}
+@media(min-width:1600px){.portrait-hero-title{top:50px}.portrait-hero-copy{bottom:34px;width:59%}.portrait-profile-top{gap:55px}.portrait-hero-greeting{font-size:12px;margin-bottom:16px}.portrait-hero-greeting>span:last-child{font-size:10px}.portrait-identity h2{font-size:85px;margin-bottom:20px}.portrait-hero-role{font-size:22px}.portrait-statement h3{font-size:48px;margin-bottom:18px}.portrait-statement>p{font-size:18px;line-height:1.8}.portrait-hero-salary{margin-top:26px;padding-top:22px;gap:22px}.portrait-hero-salary>span{font-size:13px}.portrait-hero-salary>strong{font-size:50px}.portrait-hero-salary>small{font-size:12px}.portrait-hero-salary>.portrait-salary-note{font-size:10px}.portrait-hero-english .portrait-identity h2{font-size:54px;max-width:360px}.portrait-hero-english .portrait-statement h3{font-size:36px}.portrait-hero-english .portrait-statement>p{font-size:16px}}
+@media(max-width:1100px) and (min-width:761px){.portrait-hero-copy{width:61%;bottom:25px}.portrait-profile-top{gap:25px;grid-template-columns:1fr 1.1fr}.portrait-identity h2{font-size:52px}.portrait-hero-role{font-size:14px}.portrait-statement h3{font-size:28px}.portrait-statement>p{font-size:12px}.portrait-hero-salary>strong{font-size:32px}.portrait-hero-salary>.portrait-salary-note{display:none}.portrait-hero-english .portrait-identity h2{font-size:32px}.portrait-hero-english .portrait-statement h3{font-size:20px}}
+@media(max-width:760px){.portrait-hero-title{top:56px;font-size:20vw}.portrait-hero .portfolio-word{letter-spacing:-.04em;transform:scaleX(var(--portfolio-fit,1)) scaleY(1.2)}.portrait-hero-copy{top:27%;bottom:auto;left:0;width:100%;max-width:100%}.portrait-hero-greeting{font-size:8px;gap:15px;margin-bottom:13px}.portrait-hero-greeting>span:last-child{font-size:7px}.portrait-profile-top{grid-template-columns:1fr 1fr;gap:17px;align-items:start}.portrait-identity h2{font-size:35px;margin:4px 0 13px}.portrait-hero-role{font-size:10px;white-space:nowrap}.portrait-statement h3{font-size:20px;line-height:1.4;margin-bottom:10px}.portrait-statement>p{font-size:10px;line-height:1.7}.portrait-hero-salary{margin-top:17px;padding-top:14px;gap:13px}.portrait-hero-salary>span{font-size:9px}.portrait-hero-salary>strong{font-size:28px}.portrait-hero-salary>small{font-size:8px}.portrait-hero-salary>.portrait-salary-note{display:none}.portrait-hero-english .portrait-identity h2{font-size:25px}.portrait-hero-english .portrait-statement h3{font-size:16px}.portrait-hero-english .portrait-statement>p{font-size:9px}}

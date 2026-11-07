@@ -1,0 +1,212 @@
+{
+  "zh": {
+    "casesTitle": "代表项目与问题解决",
+    "casesNote": "两种职责，同样贯穿从需求到成片。",
+    "cases": [
+      {
+        "filmId": "konfu",
+        "title": "康夫吹风机 AI 商业广告片",
+        "role": "项目统筹与创意审核 · 通过合作方承接",
+        "summary": "同一产品，两条创意路线：功能展示与日常使用。",
+        "sections": [
+          {
+            "title": "项目需求",
+            "text": "两条各约 1 分钟的广告视频，客户要求一周内完成。一条偏 3D 渲染质感的产品功能展示，另一条以日常使用场景为主；表达应有差异，产品核心信息保持一致。"
+          },
+          {
+            "title": "本人职责",
+            "text": "先评估需求并报价，再确定两条片的创意方向；与团队梳理脚本、分配任务、组织产品资产制作，修改并审核提示词。团队执行 AI 视频生成与剪辑，本人负责后续审核、修改把控与最终成片质量。"
+          },
+          {
+            "title": "难点 01 / 差异化表达",
+            "text": "先划分“功能展示”和“日常使用”两条路线，再逐层修改脚本，明确镜头内容和表现侧重，避免两条片风格雷同，同时保持产品内核一致。"
+          },
+          {
+            "title": "难点 02 / 人物与场景适配",
+            "text": "围绕人物、场景与产品的适配关系调整脚本，精炼相关提示词，在生成结果与成片审核中持续校正，避免整体风格偏离既定方向。"
+          },
+          {
+            "title": "方法与产出",
+            "text": "运用个人整理的提示词 Skill，将分段剧本和资产图转化为视频提示词，细化镜头、光影、色调及节奏要求；结合团队生成与剪辑结果完成修改，形成两条不同表达方向的广告成片。"
+          }
+        ]
+      },
+      {
+        "filmId": "aviation",
+        "title": "东方航空宠物进舱服务短片",
+        "role": "独立完成全流程制作",
+        "summary": "从商业沟通到视觉生成、剪辑审核，由本人独立推进。",
+        "sections": [
+          {
+            "title": "创作任务",
+            "text": "围绕宠物进舱服务主题制作 AI 视频短片，由本人贯穿前期策划、视觉制作和后期交付，是个人完成度最高的代表作品之一。"
+          },
+          {
+            "title": "前期策划",
+            "text": "独立完成需求沟通、评估报价、视频方向与脚本策划，将内容要求整理为具体制作方案，衔接人物、宠物与场景等视觉资产的准备。"
+          },
+          {
+            "title": "生成与后期",
+            "text": "独立完成资产制作、提示词编写、AI 视频生成及结果调整，再归类素材、剪辑成片、审核修改并交付；持续把控视觉风格、叙事与镜头节奏。"
+          },
+          {
+            "title": "能力体现",
+            "text": "将商业沟通、创意策划、视觉生成与后期执行衔接在同一项目中，独立推进需求到成片的完整制作，并将实践经验用于团队统筹与制作问题处理。"
+          }
+        ]
+      }
+    ],
+    "workflowTitle": "AI 视频全流程与个人制作方法",
+    "workflowLabel": "07 STEPS / 从需求到交付",
+    "steps": [
+      [
+        "需求沟通与评估报价",
+        "了解项目内容、成片数量、时长与交付要求，评估制作难度和执行范围，开展报价沟通。"
+      ],
+      [
+        "创意方向与脚本策划",
+        "结合产品或服务确定方向，梳理叙事与表现重点；多条片同时制作时区分风格与用途，保持核心信息一致。"
+      ],
+      [
+        "分段拆解与资产准备",
+        "将剧本拆分为每段不超过 30 秒的制作单元，准备产品、人物及场景资产图，为提示词与视频生成提供依据。"
+      ],
+      [
+        "提示词制作与审核",
+        "结合个人 Skill、分段剧本和资产图生成提示词，审核镜头表达、光影、色调与节奏要求，明确各段制作方向。"
+      ],
+      [
+        "视频生成与迭代",
+        "执行或指导 AI 视频生成；多次生成仍不理想时介入资产和提示词调整，以减少无效重复、控制制作投入为目标。"
+      ],
+      [
+        "素材归类与剪辑成片",
+        "整理可用视频素材，按内容与制作需要归类，再通过剪辑组织画面、衔接段落，形成完整短片。"
+      ],
+      [
+        "成片审核与修改交付",
+        "审核产品表达、人物场景适配、风格统一及整体节奏，组织或执行修改，完成最终交付。"
+      ]
+    ],
+    "skillTitle": "个人 AI 视频提示词 Skill",
+    "skill": [
+      [
+        "输入与输出",
+        "输入为不超过 30 秒的分段剧本及相关资产图，分镜图不是必需输入；输出为可用于 AI 视频制作的提示词。"
+      ],
+      [
+        "方法特点",
+        "结合联网检索参考细化镜头表达，根据剧本组织电影感或广告片风格，将光影统一、色调调配和视频节奏纳入生成与审核依据。"
+      ]
+    ],
+    "educationProject": "参与实践 · 中共三大会址文创产品设计",
+    "educationNote": "专业学习涵盖商业广告、品牌视觉、版式、插画、包装、摄影与编导；辅修摄像、动态视觉及交互设计相关课程。",
+    "play": "观看已收录成片",
+    "read": "展开制作详情"
+  },
+  "en": {
+    "casesTitle": "Selected projects & problem solving",
+    "casesNote": "Different responsibilities. A complete view of production.",
+    "cases": [
+      {
+        "filmId": "konfu",
+        "title": "CONFU Hair-dryer AI Commercials",
+        "role": "Production oversight & creative review · Via a partner",
+        "summary": "One product, two creative routes: functionality and everyday use.",
+        "sections": [
+          {
+            "title": "The brief",
+            "text": "Two commercials of approximately one minute each, with a requested one-week turnaround. One emphasised product functions with a 3D-rendered look; the other focused on everyday use. Their styles needed to differ while communicating the same core product information."
+          },
+          {
+            "title": "My responsibility",
+            "text": "Assessed requirements and pricing, defined both creative directions, developed scripts with the team, allocated tasks and organised product assets. Revised and reviewed prompts. The team handled generation and editing; I reviewed the outputs, directed revisions and controlled final quality."
+          },
+          {
+            "title": "Challenge 01 / Distinct expressions",
+            "text": "Separated functional demonstration from everyday use, then refined scripts and shot priorities so the two films offered different experiences while preserving the product’s core message."
+          },
+          {
+            "title": "Challenge 02 / People, settings & product",
+            "text": "Adjusted scripts and refined character, environment and product prompts around their visual relationship. Reviewed generated shots and edits to correct mismatches and keep the chosen style on track."
+          },
+          {
+            "title": "Method & outcome",
+            "text": "Used my prompt Skill to translate segmented scripts and asset images into video prompts covering camera language, lighting, colour and rhythm. Reviewed the team’s generated footage and edits to produce two distinct commercial directions."
+          }
+        ]
+      },
+      {
+        "filmId": "aviation",
+        "title": "China Eastern — Pets in Cabin",
+        "role": "Independent end-to-end production",
+        "summary": "Personally connected client discovery, visual generation, editing and delivery.",
+        "sections": [
+          {
+            "title": "The assignment",
+            "text": "An AI short film about the pet-in-cabin service, covering planning, visual production and post-production. One of my most complete independent projects."
+          },
+          {
+            "title": "Planning",
+            "text": "Independently handled requirement discussions, estimates, direction and scripting, translating communication goals into a practical production plan and preparing character, pet and environment assets."
+          },
+          {
+            "title": "Generation & post-production",
+            "text": "Created assets and prompts, generated and refined AI video, organised footage, edited the film, reviewed revisions and delivered the result while controlling visual consistency and narrative rhythm."
+          },
+          {
+            "title": "What it demonstrates",
+            "text": "The ability to connect commercial communication, creative planning, visual generation and post-production within one project, and bring hands-on experience into team coordination and troubleshooting."
+          }
+        ]
+      }
+    ],
+    "workflowTitle": "AI film workflow & production method",
+    "workflowLabel": "07 STEPS / From brief to delivery",
+    "steps": [
+      [
+        "Discovery & estimates",
+        "Confirm content, film count, duration and delivery requirements. Assess production difficulty and scope before discussing pricing."
+      ],
+      [
+        "Creative direction & scripts",
+        "Define the direction around the product or service. Distinguish styles and purposes across multiple films while keeping the core message consistent."
+      ],
+      [
+        "Script breakdown & assets",
+        "Split scripts into production units of no more than 30 seconds and prepare product, character and environment asset images."
+      ],
+      [
+        "Prompts & review",
+        "Use my Skill, segmented scripts and assets to produce prompts, then review camera language, lighting, colour and rhythm."
+      ],
+      [
+        "Generation & iteration",
+        "Generate or direct AI footage. Adjust assets and prompts when repeated results fall short, aiming to reduce unproductive attempts and control production input."
+      ],
+      [
+        "Footage organisation & editing",
+        "Classify usable footage, organise shots and connect segments into a complete film."
+      ],
+      [
+        "Final review & delivery",
+        "Review product communication, character and environment fit, consistent style and pacing. Execute or direct revisions and deliver the finished film."
+      ]
+    ],
+    "skillTitle": "My AI video prompt Skill",
+    "skill": [
+      [
+        "Input & output",
+        "Inputs: a script segment of no more than 30 seconds and relevant asset images. Storyboard images are optional. Output: prompts suitable for AI video production."
+      ],
+      [
+        "Approach",
+        "Use online visual references to refine camera language and shape cinematic or advertising prompts. Include consistent lighting, colour and rhythm as criteria for both generation and review."
+      ]
+    ],
+    "educationProject": "Design practice · Cultural products for the Site of the Third CPC National Congress",
+    "educationNote": "Study included advertising, brand identity, editorial design, illustration, packaging, photography and direction, with additional cinematography, motion and interaction-design coursework.",
+    "play": "Watch the film in this portfolio",
+    "read": "Read production details"
+  }
+}
