@@ -1,4 +1,10 @@
 {
+  "wait-for-you": {
+    "src": "/images/posters/wait-for-you.webp",
+    "width": 800,
+    "height": 1200,
+    "title": "我等你出警回来"
+  },
   "showreel": {
     "src": "/images/posters/showreel.webp",
     "width": 800,

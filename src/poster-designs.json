@@ -1,4 +1,15 @@
 {
+  "wait-for-you": {
+    "reviewFrame": 158,
+    "mood": "emotional",
+    "title": {
+      "zh": ["我等你", "出警回来"],
+      "en": ["UNTIL YOU", "COME HOME"]
+    },
+    "accent": "#dec9aa",
+    "position": "50% 35%",
+    "selectionReason": "结合全片选用新娘、消防员男主的真实造型，与婚礼回忆及救援场景进行双重曝光式海报设计，以柔和光线表达等待与思念。"
+  },
   "showreel": {
     "reviewFrame": 7,
     "mood": "epic",

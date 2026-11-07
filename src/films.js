@@ -41,6 +41,14 @@ const films = [
     tags: [['产品广告', '发丝质感', '生活场景'], ['Product commercial', 'Hair detail', 'Lifestyle imagery']],
   },
   {
+    id: 'wait-for-you', category: 'story', accent: '#dec9aa', style: 'cinema',
+    title: ['《我等你出警回来》', 'Until You Come Home'],
+    discipline: ['情感短片 / 致敬消防英雄', 'EMOTIONAL SHORT / A TRIBUTE TO FIREFIGHTERS'],
+    posterTitle: [['我等你', '出警回来'], ['UNTIL YOU', 'COME HOME']],
+    description: ['围绕消防员与恋人的约定，将婚礼、消防救援与日常回忆交织，讲述等待、思念与守护。柔和的双人情感叙事与救援场景相互映照，以 AI 影像致敬消防英雄。', 'A promise between a firefighter and his fiancée unfolds through wedding scenes, rescue work and memories of everyday life. Tender character moments contrast with the urgency of rescue in an AI short about waiting, remembrance and devotion, paying tribute to firefighters.'],
+    tags: [['情感叙事', '消防题材', 'AI 短片'], ['Emotional storytelling', 'Firefighters', 'AI short film']],
+  },
+  {
     id: 'wedding-lifetimes', category: 'story', accent: '#edc0cf', style: 'romantic',
     title: ['前世今生 — AI 婚礼影像', 'Across Lifetimes — An AI Wedding Film'],
     discipline: ['爱情叙事 / AI 婚礼', 'ROMANCE / AI WEDDING FILM'],

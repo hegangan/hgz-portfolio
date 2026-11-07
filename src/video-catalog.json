@@ -1,4 +1,19 @@
 {
+  "wait-for-you": {
+    "id": "wait-for-you",
+    "filename": "成片版 1080.mp4",
+    "duration": 276.09,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "bytes": 486439897,
+    "video": "/videos/wait-for-you.mp4",
+    "image": "/images/projects/wait-for-you.jpg",
+    "webWidth": 1280,
+    "webHeight": 720,
+    "webFps": 30,
+    "webBytes": 24292824
+  },
   "showreel": {
     "id": "showreel",
     "filename": "个人能力展示.mp4",

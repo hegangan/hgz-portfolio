@@ -7,7 +7,11 @@ const server=await createServer({server:{middlewareMode:true}});
 try{
  const {getContent}=await server.ssrLoadModule('/src/i18n.js');
  for(const language of ['zh','en']){
-   const data=getContent(language);assert.equal(data.projects.length,24);
+   const data=getContent(language);assert.equal(data.projects.length,25);
+   const added=data.projects.find(f=>f.id==='wait-for-you');
+   assert(added&&added.category==='story','New film must be available in AI Stories');
+   assert.equal(added.durationLabel,'4:36');
+   assert.equal(added.width/added.height,16/9,'Playback must preserve the landscape aspect ratio');
    const urls=[data.profile.portrait,data.profile.heroPortrait,...data.projects.flatMap(f=>[f.video,f.image,f.coverImage])];
    for(const url of urls){assert(url.startsWith(base),'Incorrect Pages URL '+url);await fs.access('public/'+url.slice(base.length));}
    const education=data.profile.education;assert(education.school);
