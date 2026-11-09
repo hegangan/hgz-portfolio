@@ -4,7 +4,6 @@ import { filmCount } from './films';
 export const profile = {
   name: '何淦中',
   englishName: 'HE GANZHONG',
-  targetSalary: '13–16K',
   heroPortrait: publicAsset('/images/he-ganzhong-hero-cutout.png'),
   monogram: 'H.GZ',
   role: '视觉设计师 / AI 设计师 / 品牌设计师',
