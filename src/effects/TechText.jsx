@@ -115,6 +115,8 @@ const TechText = ({
     let height = 1;
     let dpr = 1;
     let raf = 0;
+    let themeTimer = 0;
+    let themePending = false;
     let last = performance.now();
     let visible = false;
     let alive = true;
@@ -267,7 +269,6 @@ const TechText = ({
         lines:[{y:baseline,label:'baseline'},{y:top,label:'cap height'}],
         bands:[{y0:top,y1:bottom,up:true,order:0}]};
       word=next;
-      canvas.dataset.ready='true';
       dragging = -1;
       frame.index = -1;
       return next;
@@ -646,7 +647,7 @@ const TechText = ({
     const tick = now => {
       raf = 0;
       const s = settingsRef.current;
-      if (!s || !visible || document.hidden) return;
+      if (!s || !visible || document.hidden || themePending) return;
       const dt = Math.min(0.05, Math.max(0.001, (now - last) / 1000));
       last = now;
       const { ink, accent } = palette(s);
@@ -823,6 +824,9 @@ const TechText = ({
       });
       if (presence > 0.001) drawReveal(s);
       drawFrame(s, accent);
+      // Reveal the canvas only after the new palette has actually been drawn.
+      if (!canvas.dataset.ready) canvas.dataset.ready = 'true';
+      if (canvas.style.visibility) canvas.style.removeProperty('visibility');
 
       const settling =
         moving ||
@@ -836,7 +840,7 @@ const TechText = ({
     };
 
     const wake = () => {
-      if (raf || !visible || !alive) return;
+      if (raf || !visible || !alive || themePending) return;
       last = performance.now();
       raf = requestAnimationFrame(tick);
     };
@@ -919,18 +923,38 @@ const TechText = ({
     resizeObserver.observe(container);
     const intersectionObserver = new IntersectionObserver(([entry]) => {
       visible = entry.isIntersecting;
-      if(!visible){cancelAnimationFrame(raf);raf=0;pointer.inside=false;}else wake();
+      if(!visible){cancelAnimationFrame(raf);raf=0;pointer.inside=false;}else{cachedPalette=null;wake();}
     });
     intersectionObserver.observe(container);
-    const themeObserver = new MutationObserver(()=>{cachedPalette=null;layoutKey='';wake();});
+    const invalidateTheme = () => {
+      cachedPalette = null;
+      layoutKey = '';
+      themePending = true;
+      cancelAnimationFrame(raf);
+      raf = 0;
+      // Inherited body colour transitions for 450 ms. Reading it once here
+      // would cache the previous/intermediate colour in every glyph sprite.
+      // Native glyphs already reserve the same layout and track CSS colours
+      // automatically, so use them during the transition and repaint just once.
+      delete canvas.dataset.ready;
+      canvas.style.visibility = 'hidden';
+      clearTimeout(themeTimer);
+      themeTimer = window.setTimeout(() => {
+        themePending = false;
+        cachedPalette = null;
+        layoutKey = '';
+        wake();
+      }, 550);
+    };
+    const themeObserver = new MutationObserver(invalidateTheme);
     for (const node of [document.documentElement, document.body]) {
       if (node) themeObserver.observe(node, { attributes: true, attributeFilter: ['class', 'data-theme'] });
     }
     const schemeQuery = window.matchMedia?.('(prefers-color-scheme: dark)');
-    schemeQuery?.addEventListener?.('change', wake);
+    schemeQuery?.addEventListener?.('change', invalidateTheme);
     if (document.fonts) document.fonts.ready.then(fontsLoaded, fontsLoaded);
 
-    const onVisibility=()=>{if(document.hidden){cancelAnimationFrame(raf);raf=0;}else wake();};
+    const onVisibility=()=>{if(document.hidden){cancelAnimationFrame(raf);raf=0;}else{cachedPalette=null;wake();}};
     document.addEventListener('visibilitychange',onVisibility);
     resize();
 
@@ -938,11 +962,12 @@ const TechText = ({
       document.removeEventListener('visibilitychange',onVisibility);
       alive = false;
       cancelAnimationFrame(raf);
+      clearTimeout(themeTimer);
       wakeRef.current = () => {};
       resizeObserver.disconnect();
       intersectionObserver.disconnect();
       themeObserver.disconnect();
-      schemeQuery?.removeEventListener?.('change', wake);
+      schemeQuery?.removeEventListener?.('change', invalidateTheme);
       container.style.cursor = '';
       container.removeEventListener('pointermove', onMove);
       container.removeEventListener('pointerenter', onMove);
