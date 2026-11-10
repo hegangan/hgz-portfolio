@@ -426,7 +426,14 @@
     },
     "accent": "#99bfff",
     "position": "50% 40%",
-    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+    "selectionReason": "依据掌机实拍的外观与游戏体验重组产品主视觉，用美式英文标题突出怀旧娱乐体验。",
+    "posterLanguage": "en-US",
+    "market": "US",
+    "headline": [
+      "RETRO.",
+      "REPLAYED."
+    ],
+    "artDirection": "午夜蓝霓虹 / 复古游戏体验"
   },
   "short-handheld-6": {
     "reviewFrame": 2.8,
@@ -443,7 +450,14 @@
     },
     "accent": "#e2b0ff",
     "position": "50% 40%",
-    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+    "selectionReason": "根据开箱影片中的掌机正反面与包装设计组合海报，以美式英文排版呈现开箱与游玩主题。",
+    "posterLanguage": "en-US",
+    "market": "US",
+    "headline": [
+      "GB350",
+      "UNBOX. PRESS PLAY."
+    ],
+    "artDirection": "紫红开箱 / 正反面产品组合"
   },
   "short-manual": {
     "reviewFrame": 12.5,
@@ -460,7 +474,14 @@
     },
     "accent": "#b9cfb4",
     "position": "50% 40%",
-    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+    "selectionReason": "依据影片中的折叠坐姿椅及蜂窝支撑面组织产品与材质特写，为泰国市场使用泰语标题和便携功能文案。",
+    "posterLanguage": "th-TH",
+    "market": "TH",
+    "headline": [
+      "นั่งสบาย",
+      "ทุกวัน"
+    ],
+    "artDirection": "暖米白与鼠尾草绿 / 泰语产品广告"
   },
   "short-viral": {
     "reviewFrame": 5.3,
@@ -477,7 +498,14 @@
     },
     "accent": "#e3c58f",
     "position": "50% 40%",
-    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+    "selectionReason": "根据手机壳实拍的透视风外观、镜头和材质细节设计中文产品广告海报，沿用原视频提供的500万+播放信息。",
+    "posterLanguage": "zh-CN",
+    "market": null,
+    "headline": [
+      "透视科技",
+      "掌中细节"
+    ],
+    "artDirection": "石墨黑与香槟金 / 产品细节"
   },
   "short-cat-ball": {
     "reviewFrame": 10.5,
@@ -494,6 +522,13 @@
     },
     "accent": "#c9df9e",
     "position": "50% 40%",
-    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+    "selectionReason": "依据影片中的灰猫与蓝色长尾逗猫球重组真实互动场景，以美式英文标题表达追逐玩耍主题，沿用原视频250万+播放信息。",
+    "posterLanguage": "en-US",
+    "market": "US",
+    "headline": [
+      "PLAYTIME.",
+      "ON REPEAT."
+    ],
+    "artDirection": "浅鼠尾草绿 / 美式宠物生活方式"
   }
 }

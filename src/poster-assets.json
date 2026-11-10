@@ -150,33 +150,43 @@
     "title": "AI影视特效 — 赤焰残影"
   },
   "short-handheld": {
-    "src": "/images/posters/short-handheld.svg",
+    "src": "/images/posters/short-handheld-en-US-v2.webp",
     "width": 800,
     "height": 1200,
-    "title": "复古掌机 · 游戏体验"
+    "title": "复古掌机 · 游戏体验",
+    "posterLanguage": "en-US",
+    "market": "US"
   },
   "short-handheld-6": {
-    "src": "/images/posters/short-handheld-6.svg",
+    "src": "/images/posters/short-handheld-6-en-US-v2.webp",
     "width": 800,
     "height": 1200,
-    "title": "GB350 · 开箱即玩"
+    "title": "GB350 · 开箱即玩",
+    "posterLanguage": "en-US",
+    "market": "US"
   },
   "short-manual": {
-    "src": "/images/posters/short-manual.svg",
+    "src": "/images/posters/short-manual-th-TH-v2.webp",
     "width": 800,
     "height": 1200,
-    "title": "人体工学 · 坐姿支撑"
+    "title": "人体工学 · 坐姿支撑",
+    "posterLanguage": "th-TH",
+    "market": "TH"
   },
   "short-viral": {
-    "src": "/images/posters/short-viral.svg",
+    "src": "/images/posters/short-viral-zh-CN-v2.webp",
     "width": 800,
     "height": 1200,
-    "title": "透视科技 · 掌中细节"
+    "title": "透视科技 · 掌中细节",
+    "posterLanguage": "zh-CN",
+    "market": null
   },
   "short-cat-ball": {
-    "src": "/images/posters/short-cat-ball.svg",
+    "src": "/images/posters/short-cat-ball-en-US-v2.webp",
     "width": 800,
     "height": 1200,
-    "title": "逗趣时刻 · 一球入戏"
+    "title": "逗趣时刻 · 一球入戏",
+    "posterLanguage": "en-US",
+    "market": "US"
   }
 }
