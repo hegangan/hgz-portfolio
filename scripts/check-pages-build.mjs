@@ -15,5 +15,5 @@ await walk(dist);assert(total<1024*1024*1024,'Published site exceeds 1 GiB');
 const catalog=JSON.parse(await fs.readFile(path.join(root,'src/video-catalog.json'),'utf8'));
 const posters=JSON.parse(await fs.readFile(path.join(root,'src/poster-assets.json'),'utf8'));
 for(const [id,item] of Object.entries(catalog)){for(const url of [item.video,item.image,posters[id]?.src].filter(Boolean)){assert((await fs.stat(path.join(dist,url.replace(/^\//,'')))).isFile(),'Missing work asset '+url);}}
-assert(Object.keys(catalog).length===25,'All 25 films must remain available');
+assert(Object.keys(catalog).length===30,'All 30 films must remain available');
 console.log(JSON.stringify({base,films:Object.keys(catalog).length,files:count,totalMiB:+(total/1048576).toFixed(2),largestMiB:+(largest/1048576).toFixed(2),entryAssets:urls.length}));

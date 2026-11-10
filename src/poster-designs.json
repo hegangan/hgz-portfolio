@@ -3,8 +3,14 @@
     "reviewFrame": 158,
     "mood": "emotional",
     "title": {
-      "zh": ["我等你", "出警回来"],
-      "en": ["UNTIL YOU", "COME HOME"]
+      "zh": [
+        "我等你",
+        "出警回来"
+      ],
+      "en": [
+        "UNTIL YOU",
+        "COME HOME"
+      ]
     },
     "accent": "#dec9aa",
     "position": "50% 35%",
@@ -404,5 +410,90 @@
     "accent": "#ed8978",
     "position": "50% 34%",
     "selectionReason": "红黑特效形成完整圆弧，画面张力强且与人物关系明确。"
+  },
+  "short-handheld": {
+    "reviewFrame": 14.5,
+    "mood": "product",
+    "title": {
+      "zh": [
+        "复古掌机",
+        "游戏体验"
+      ],
+      "en": [
+        "LIVE ACTION",
+        "PRODUCT SHORT"
+      ]
+    },
+    "accent": "#99bfff",
+    "position": "50% 40%",
+    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+  },
+  "short-handheld-6": {
+    "reviewFrame": 2.8,
+    "mood": "product",
+    "title": {
+      "zh": [
+        "GB350",
+        "开箱即玩"
+      ],
+      "en": [
+        "LIVE ACTION",
+        "PRODUCT SHORT"
+      ]
+    },
+    "accent": "#e2b0ff",
+    "position": "50% 40%",
+    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+  },
+  "short-manual": {
+    "reviewFrame": 12.5,
+    "mood": "product",
+    "title": {
+      "zh": [
+        "人体工学",
+        "坐姿支撑"
+      ],
+      "en": [
+        "LIVE ACTION",
+        "PRODUCT SHORT"
+      ]
+    },
+    "accent": "#b9cfb4",
+    "position": "50% 40%",
+    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+  },
+  "short-viral": {
+    "reviewFrame": 5.3,
+    "mood": "product",
+    "title": {
+      "zh": [
+        "透视科技",
+        "掌中细节"
+      ],
+      "en": [
+        "LIVE ACTION",
+        "PRODUCT SHORT"
+      ]
+    },
+    "accent": "#e3c58f",
+    "position": "50% 40%",
+    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
+  },
+  "short-cat-ball": {
+    "reviewFrame": 10.5,
+    "mood": "product",
+    "title": {
+      "zh": [
+        "逗趣时刻",
+        "一球入戏"
+      ],
+      "en": [
+        "LIVE ACTION",
+        "PRODUCT SHORT"
+      ]
+    },
+    "accent": "#c9df9e",
+    "position": "50% 40%",
+    "selectionReason": "选取产品或实际互动清晰的实拍画面，保留真实产品细节，以统一的竖幅版式和文字设计制作封面。"
   }
 }

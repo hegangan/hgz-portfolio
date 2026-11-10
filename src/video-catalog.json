@@ -294,5 +294,60 @@
     "video": "/videos/vfx-04.mp4",
     "image": "/images/projects/vfx-04.jpg",
     "webBytes": 992891
+  },
+  "short-handheld": {
+    "id": "short-handheld",
+    "filename": "3c类-游戏掌机.mp4",
+    "duration": 21.29,
+    "width": 1080,
+    "height": 1906,
+    "bytes": 39008912,
+    "video": "/videos/short-handheld.mp4",
+    "image": "/images/projects/short-handheld.jpg",
+    "webBytes": 8036991
+  },
+  "short-handheld-6": {
+    "id": "short-handheld-6",
+    "filename": "3c类-游戏掌机6.mp4",
+    "duration": 10.1,
+    "width": 1080,
+    "height": 1920,
+    "bytes": 19158514,
+    "video": "/videos/short-handheld-6.mp4",
+    "image": "/images/projects/short-handheld-6.jpg",
+    "webBytes": 4793766
+  },
+  "short-manual": {
+    "id": "short-manual",
+    "filename": "0908 高级产品说明书(4K版).mp4",
+    "duration": 36.43,
+    "width": 2160,
+    "height": 3840,
+    "bytes": 177096488,
+    "video": "/videos/short-manual.mp4",
+    "image": "/images/projects/short-manual.jpg",
+    "webBytes": 11024119
+  },
+  "short-viral": {
+    "id": "short-viral",
+    "filename": "抖音爆款（500W+播放）.mp4",
+    "duration": 15.93,
+    "width": 720,
+    "height": 1280,
+    "bytes": 3913300,
+    "video": "/videos/short-viral.mp4",
+    "image": "/images/projects/short-viral.jpg",
+    "webBytes": 5801380
+  },
+  "short-cat-ball": {
+    "id": "short-cat-ball",
+    "filename": "逗猫球爆款视频(250w+).mp4",
+    "duration": 18.09,
+    "width": 1080,
+    "height": 1920,
+    "bytes": 33512771,
+    "video": "/videos/short-cat-ball.mp4",
+    "image": "/images/projects/short-cat-ball.jpg",
+    "webBytes": 14389703
   }
 }

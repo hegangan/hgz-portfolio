@@ -1,5 +1,5 @@
 # He Ganzhong · AIGC Visual Designer
-React + Vite portfolio, with Chinese/English content, light/dark themes, 25 films and 6 photography series.
+React + Vite portfolio, with Chinese/English content, light/dark themes, 30 films, 6 photography series and 6 graphic posters.
 
 ## Run locally
 Use Node.js 24 and the pnpm version declared in package.json.

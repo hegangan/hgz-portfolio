@@ -1,0 +1,42 @@
+export default [
+  {
+    id:'short-handheld',category:'short',accent:'#99bfff',style:'tech',
+    title:['复古掌机 · 游戏体验','Retro Handheld · Gameplay'],
+    discipline:['3C 产品 / 实拍短视频','TECH PRODUCTS / LIVE-ACTION SHORT'],
+    posterTitle:[['复古掌机','游戏体验'],['RETRO','PLAY']],
+    description:['实拍演示复古掌机的游戏列表、握持操作与游玩画面，通过近景和产品细节呈现掌机体验。','A hands-on look at a retro handheld, moving between game menus, controls and gameplay through close-ups and product detail.'],
+    tags:[['3C 产品','游戏掌机','实拍剪辑'],['Tech products','Handheld console','Live-action editing']],
+  },
+  {
+    id:'short-handheld-6',category:'short',accent:'#e2b0ff',style:'tech',
+    title:['GB350 · 开箱即玩','GB350 · Unbox & Play'],
+    discipline:['产品开箱 / 实拍短视频','UNBOXING / LIVE-ACTION SHORT'],
+    posterTitle:[['GB350','开箱即玩'],['UNBOX','PLAY']],
+    description:['以 GB350 开箱为线索，在霓虹色彩的桌面场景中展示机身正反面、按键与屏幕，衔接产品外观和实际游玩。','A neon-lit GB350 unboxing that explores the front, back, controls and screen, connecting physical product details with gameplay.'],
+    tags:[['产品开箱','霓虹场景','实拍短视频'],['Unboxing','Neon lighting','Product short']],
+  },
+  {
+    id:'short-manual',category:'short',accent:'#b9cfb4',style:'editorial',
+    title:['人体工学坐姿垫 · 产品说明','Ergonomic Seat Support · Product Guide'],
+    discipline:['产品说明 / 功能演示','PRODUCT GUIDE / FUNCTION DEMO'],
+    posterTitle:[['人体工学','坐姿支撑'],['FORM','COMFORT']],
+    description:['围绕坐姿支撑产品，结合折叠结构、支撑面与手部演示呈现产品功能，展示说明型短视频的镜头组织与剪辑表达。','A product guide presenting folding construction, support surfaces and hands-on demonstrations through clear product shots and explanatory editing.'],
+    tags:[['人体工学','功能演示','产品说明'],['Ergonomics','Function demo','Product guide']],
+  },
+  {
+    id:'short-viral',category:'short',accent:'#e3c58f',style:'tech',
+    title:['透视风手机壳 · 产品实拍','Transparent-style Phone Case · Product Short'],
+    discipline:['3C 产品 / 抖音短视频','TECH PRODUCTS / DOUYIN SHORT'],
+    posterTitle:[['透视科技','掌中细节'],['TECH','DETAIL']],
+    description:['通过装配、多角度近景和手持展示，呈现透视风手机壳的外观与细节，以紧凑剪辑组织产品信息。','Assembly, handheld demonstrations and multi-angle close-ups show the phone case’s transparent-style design, with concise editing that foregrounds product details.'],
+    tags:[['500万+播放','3C 产品','细节实拍'],['5M+ views','Tech products','Product close-ups']],
+  },
+  {
+    id:'short-cat-ball',category:'short',accent:'#c9df9e',style:'playful',
+    title:['逗猫球 · 宠物产品实拍','Interactive Cat Ball · Pet Product Short'],
+    discipline:['宠物产品 / 场景实拍','PET PRODUCTS / LIVE-ACTION SHORT'],
+    posterTitle:[['逗趣时刻','一球入戏'],['PLAY','EVERYDAY']],
+    description:['记录猫咪追逐、扑抓逗猫球的互动场景，将产品运动与宠物反应组织成轻快、直观的短视频。','Real cat-and-toy interactions pair the ball’s movement with the cat’s playful reactions, creating a lively and direct product demonstration.'],
+    tags:[['250万+播放','宠物产品','真实互动'],['2.5M+ views','Pet products','Real interactions']],
+  },
+];

@@ -148,5 +148,35 @@
     "width": 800,
     "height": 1200,
     "title": "AI影视特效 — 赤焰残影"
+  },
+  "short-handheld": {
+    "src": "/images/posters/short-handheld.svg",
+    "width": 800,
+    "height": 1200,
+    "title": "复古掌机 · 游戏体验"
+  },
+  "short-handheld-6": {
+    "src": "/images/posters/short-handheld-6.svg",
+    "width": 800,
+    "height": 1200,
+    "title": "GB350 · 开箱即玩"
+  },
+  "short-manual": {
+    "src": "/images/posters/short-manual.svg",
+    "width": 800,
+    "height": 1200,
+    "title": "人体工学 · 坐姿支撑"
+  },
+  "short-viral": {
+    "src": "/images/posters/short-viral.svg",
+    "width": 800,
+    "height": 1200,
+    "title": "透视科技 · 掌中细节"
+  },
+  "short-cat-ball": {
+    "src": "/images/posters/short-cat-ball.svg",
+    "width": 800,
+    "height": 1200,
+    "title": "逗趣时刻 · 一球入戏"
   }
 }

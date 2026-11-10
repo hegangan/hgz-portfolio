@@ -9,6 +9,7 @@ export const profile = {
   role: '视觉设计师 / AI 设计师 / 品牌设计师',
   currentRole: 'AI 团队负责人 / AI 视觉设计师',
   email: '609721033@qq.com',
+  wechatQRCode: publicAsset('/images/contact/wechat-qr.png'),
   phone: '13640399633',
   qq: '609721033',
   portrait: publicAsset('/images/he-ganzhong-formal.jpg'),

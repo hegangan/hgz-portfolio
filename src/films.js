@@ -1,11 +1,13 @@
 import {publicAsset} from './site-assets';
 import catalog from './video-catalog.json';
 import additionalFilms from './additional-films';
+import shortFilms from './short-films';
 import posterDesigns from './poster-designs.json';
 import posterAssets from './poster-assets.json';
 
 export const filmCategories = [
   { id: 'live', zh: '实拍作品', en: 'Live-action Films' },
+  { id: 'short', zh: '实拍短视频', en: 'Live-action Shorts' },
   { id: 'vfx', zh: 'AI影视特效', en: 'AI Film VFX' },
   { id: 'all', zh: '全部', en: 'All films' },
   { id: 'drama', zh: 'AI短剧', en: 'AI Short Dramas' },
@@ -156,6 +158,7 @@ for (let episode = 1; episode <= 4; episode++) {
 }
 
 films.push(...additionalFilms);
+films.push(...shortFilms);
 
 export const filmCount = films.length;
 
