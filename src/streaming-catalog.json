@@ -1,0 +1,602 @@
+{
+  "wait-for-you": {
+    "manifest": "/streams/v1/wait-for-you/4b3de4003548/master.m3u8",
+    "sourceSHA256": "4b3de400354895a0ea7749723bc8fd4344a3c93356081237f90e1a7e78b29fbf",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 744218,
+        "bytes": 11098495,
+        "largestSegment": 338281,
+        "duration": 276.083333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2674768,
+        "bytes": 24154935,
+        "largestSegment": 1512452,
+        "duration": 276.066665
+      }
+    ]
+  },
+  "showreel": {
+    "manifest": "/streams/v1/showreel/8ef7d2b26ce9/master.m3u8",
+    "sourceSHA256": "8ef7d2b26ce9532411e083fcc56a1f6bbc1758d1e297093e6a02727c191738cb",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 707742,
+        "bytes": 13153281,
+        "largestSegment": 321701,
+        "duration": 219.291667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2418657,
+        "bytes": 23768702,
+        "largestSegment": 1218490,
+        "duration": 219.300002
+      }
+    ]
+  },
+  "aviation": {
+    "manifest": "/streams/v1/aviation/d1f69d6088f4/master.m3u8",
+    "sourceSHA256": "d1f69d6088f449aa55a72ab1fde7fdb226017169b74b807ede1247afdfb99e75",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 724160,
+        "bytes": 3405408,
+        "largestSegment": 329164,
+        "duration": 63.416667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1627655,
+        "bytes": 7713158,
+        "largestSegment": 901701,
+        "duration": 63.433334
+      }
+    ]
+  },
+  "konfu": {
+    "manifest": "/streams/v1/konfu/6dcd5d7e05d1/master.m3u8",
+    "sourceSHA256": "6dcd5d7e05d19d29534476d9faeab2ea6586059b4f6aaa9f522d32352c8cb9eb",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 509187,
+        "bytes": 2739961,
+        "largestSegment": 231449,
+        "duration": 63.458333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2608573,
+        "bytes": 10006925,
+        "largestSegment": 1506400,
+        "duration": 63.466666
+      }
+    ]
+  },
+  "translator": {
+    "manifest": "/streams/v1/translator/d35278309180/master.m3u8",
+    "sourceSHA256": "d3527830918066406580a091217cdcf28039ceadda260f9fa3710a9abc8a4b36",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 668786,
+        "bytes": 2685332,
+        "largestSegment": 303994,
+        "duration": 55.166667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2432719,
+        "bytes": 10573056,
+        "largestSegment": 1887789,
+        "duration": 55.166666
+      }
+    ]
+  },
+  "wedding-promo": {
+    "manifest": "/streams/v1/wedding-promo/d272201bdfd0/master.m3u8",
+    "sourceSHA256": "d272201bdfd019d6d298cbae81de7a93275f117d47e74ee5c2b94ce431a07d56",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 700317,
+        "bytes": 7501989,
+        "largestSegment": 318326,
+        "duration": 118.708333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1652140,
+        "bytes": 13519516,
+        "largestSegment": 1219596,
+        "duration": 118.69999899999999
+      }
+    ]
+  },
+  "wedding-lifetimes": {
+    "manifest": "/streams/v1/wedding-lifetimes/3056ec5ccf20/master.m3u8",
+    "sourceSHA256": "3056ec5ccf204f7752b6edcb661a2a6d0a045b8345883a342fd46507f599f10a",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 703868,
+        "bytes": 9741335,
+        "largestSegment": 319940,
+        "duration": 166.666667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1384491,
+        "bytes": 14534282,
+        "largestSegment": 975437,
+        "duration": 166.666666
+      }
+    ]
+  },
+  "ink-cg": {
+    "manifest": "/streams/v1/ink-cg/90b386aaa2b1/master.m3u8",
+    "sourceSHA256": "90b386aaa2b179a399f514f814b93050e0a222ab419700a6c630e20ef7aac482",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 709733,
+        "bytes": 3356993,
+        "largestSegment": 322606,
+        "duration": 48.416667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1459207,
+        "bytes": 6261366,
+        "largestSegment": 735131,
+        "duration": 48.433333
+      }
+    ]
+  },
+  "toy-cg": {
+    "manifest": "/streams/v1/toy-cg/c4e4df2b8aa1/master.m3u8",
+    "sourceSHA256": "c4e4df2b8aa1869b9d72f43134958adbc3c2a65c04c0012cf2818e9b2d29d2df",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 653336,
+        "bytes": 3131267,
+        "largestSegment": 296971,
+        "duration": 58.916667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1212395,
+        "bytes": 6204507,
+        "largestSegment": 1116232,
+        "duration": 58.9
+      }
+    ]
+  },
+  "toy-showroom": {
+    "manifest": "/streams/v1/toy-showroom/1b90fd5ac99f/master.m3u8",
+    "sourceSHA256": "1b90fd5ac99f60174a5a6d774e70378b6ace971b667065c30ffd9c7121bbd5b0",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 744592,
+        "bytes": 2877035,
+        "largestSegment": 338451,
+        "duration": 55.125
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1616039,
+        "bytes": 6256352,
+        "largestSegment": 1285486,
+        "duration": 55.133333
+      }
+    ]
+  },
+  "mother": {
+    "manifest": "/streams/v1/mother/208ff8d0916e/master.m3u8",
+    "sourceSHA256": "208ff8d0916e1690c2bbadf74417d0fb1fb4dd4c4c9e0cfdd05010ae5eeb5623",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 355671,
+        "bytes": 5209279,
+        "largestSegment": 161669,
+        "duration": 200.583333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1134768,
+        "bytes": 15211392,
+        "largestSegment": 821604,
+        "duration": 200.600001
+      }
+    ]
+  },
+  "photograph": {
+    "manifest": "/streams/v1/photograph/e9e0a0d3102c/master.m3u8",
+    "sourceSHA256": "e9e0a0d3102cb3dd70f1700f8f92aa8d71712285fad22ec3ac60af9d457652b5",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 512289,
+        "bytes": 6823134,
+        "largestSegment": 232859,
+        "duration": 201.583333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2299268,
+        "bytes": 22013505,
+        "largestSegment": 1245437,
+        "duration": 201.566667
+      }
+    ]
+  },
+  "catzilla": {
+    "manifest": "/streams/v1/catzilla/9fcc46fc0f9a/master.m3u8",
+    "sourceSHA256": "9fcc46fc0f9a91362f3533171e00d3ae5cef65d2c4efa44abccfd7b36377ee17",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 1041900,
+        "bytes": 9347652,
+        "largestSegment": 322294,
+        "duration": 152.166667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1426814,
+        "bytes": 15519096,
+        "largestSegment": 1104532,
+        "duration": 152.166668
+      }
+    ]
+  },
+  "music-video": {
+    "manifest": "/streams/v1/music-video/92ae71300563/master.m3u8",
+    "sourceSHA256": "92ae71300563bd0356489b3d56f2ba941d057dbf6121d863f45668afeaf8b785",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 711273,
+        "bytes": 9821482,
+        "largestSegment": 323306,
+        "duration": 182.583333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1424554,
+        "bytes": 15591119,
+        "largestSegment": 765952,
+        "duration": 182.566665
+      }
+    ]
+  },
+  "drama-ep01": {
+    "manifest": "/streams/v1/drama-ep01/24453477ed87/master.m3u8",
+    "sourceSHA256": "24453477ed8705b10638f7966f68a3365777997c21ffd01aef9ecfc7f20244e4",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 626747,
+        "bytes": 3842060,
+        "largestSegment": 284885,
+        "duration": 72.291667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 3295248,
+        "bytes": 16863007,
+        "largestSegment": 1503639,
+        "duration": 72.3
+      }
+    ]
+  },
+  "drama-ep02": {
+    "manifest": "/streams/v1/drama-ep02/00bbb33b71bf/master.m3u8",
+    "sourceSHA256": "00bbb33b71bf401f1e17a396ddbfbe6243271bf4d78c8c641fe2a205ef0c85bf",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 687724,
+        "bytes": 3720079,
+        "largestSegment": 312602,
+        "duration": 67.083333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 3340201,
+        "bytes": 15884720,
+        "largestSegment": 1600688,
+        "duration": 67.066667
+      }
+    ]
+  },
+  "drama-ep03": {
+    "manifest": "/streams/v1/drama-ep03/474a6b95a9c3/master.m3u8",
+    "sourceSHA256": "474a6b95a9c3c159128f79a97e68f7f8194a8a5c5154f000313ac7846f9736c5",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 615865,
+        "bytes": 3428558,
+        "largestSegment": 279939,
+        "duration": 66.041667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2825669,
+        "bytes": 15406506,
+        "largestSegment": 1380577,
+        "duration": 66.033332
+      }
+    ]
+  },
+  "drama-ep04": {
+    "manifest": "/streams/v1/drama-ep04/af9b8477de48/master.m3u8",
+    "sourceSHA256": "af9b8477de48d6713cf3e1598c50a609b49bea7f0338c143d6c7d60777504490",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 699875,
+        "bytes": 4161029,
+        "largestSegment": 318125,
+        "duration": 66.833333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 3669322,
+        "bytes": 19139531,
+        "largestSegment": 1458821,
+        "duration": 66.833333
+      }
+    ]
+  },
+  "live-auto": {
+    "manifest": "/streams/v1/live-auto/0d1919ca634c/master.m3u8",
+    "sourceSHA256": "0d1919ca634ca55cdf8f9a1f5d8ee01ee797344ecc250081715fd80358885580",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 668591,
+        "bytes": 3025106,
+        "largestSegment": 303905,
+        "duration": 57.791667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1408106,
+        "bytes": 5363987,
+        "largestSegment": 763402,
+        "duration": 57.799999
+      }
+    ]
+  },
+  "live-factory-mov": {
+    "manifest": "/streams/v1/live-factory-mov/73235a876248/master.m3u8",
+    "sourceSHA256": "73235a876248a6255be2b8b6b6532bb333008cdfc8da3d29cde4c282555bdbaa",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 739024,
+        "bytes": 3579030,
+        "largestSegment": 335920,
+        "duration": 53.541667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1218243,
+        "bytes": 5228893,
+        "largestSegment": 729809,
+        "duration": 53.56
+      }
+    ]
+  },
+  "live-factory-mp4": {
+    "manifest": "/streams/v1/live-factory-mp4/8a537555c5dc/master.m3u8",
+    "sourceSHA256": "8a537555c5dcf1f58228676ed3abfde15cb27cebe1e58736066234e75af2d205",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 725599,
+        "bytes": 5104963,
+        "largestSegment": 329818,
+        "duration": 75.708333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 1024464,
+        "bytes": 5214279,
+        "largestSegment": 637916,
+        "duration": 75.699999
+      }
+    ]
+  },
+  "vfx-01": {
+    "manifest": "/streams/v1/vfx-01/57c511f546ed/master.m3u8",
+    "sourceSHA256": "57c511f546ed83eaaa4a4b3a19b3f1462a1b7a9c886021cd7cc5febe86aa4ad9",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 2907355,
+        "bytes": 240239,
+        "largestSegment": 226473,
+        "duration": 4.041667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2534234,
+        "bytes": 1163924,
+        "largestSegment": 1163924,
+        "duration": 4.041667
+      }
+    ]
+  },
+  "vfx-02": {
+    "manifest": "/streams/v1/vfx-02/1502c6022af3/master.m3u8",
+    "sourceSHA256": "1502c6022af3f372b986ab4b257b301059f4361b7d85b1dc1900dfb7f73ad8e0",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 2302906,
+        "bytes": 205761,
+        "largestSegment": 194857,
+        "duration": 4.041667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2178939,
+        "bytes": 1000744,
+        "largestSegment": 1000744,
+        "duration": 4.041667
+      }
+    ]
+  },
+  "vfx-03": {
+    "manifest": "/streams/v1/vfx-03/b4dd81086e57/master.m3u8",
+    "sourceSHA256": "b4dd81086e57049f5235680b88297be19df0d1923f720df0966febc59a725f3f",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 3503991,
+        "bytes": 235735,
+        "largestSegment": 219144,
+        "duration": 4.041667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2384214,
+        "bytes": 1095023,
+        "largestSegment": 1095023,
+        "duration": 4.041667
+      }
+    ]
+  },
+  "vfx-04": {
+    "manifest": "/streams/v1/vfx-04/0546927bafec/master.m3u8",
+    "sourceSHA256": "0546927bafec2c6b459160f4118186d5812eb7c2fc34df3c6fd110db70006d76",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 523237,
+        "bytes": 237835,
+        "largestSegment": 237835,
+        "duration": 4.0
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 2177661,
+        "bytes": 989846,
+        "largestSegment": 989846,
+        "duration": 4.0
+      }
+    ]
+  },
+  "short-handheld": {
+    "manifest": "/streams/v1/short-handheld/359dae38d8b4/master.m3u8",
+    "sourceSHA256": "359dae38d8b4e86c07e85a92c873d248ecd5b1c951c4ec3b6d78f0addc6490d2",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 720141,
+        "bytes": 1500382,
+        "largestSegment": 327337,
+        "duration": 21.25
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 3674463,
+        "bytes": 8026365,
+        "largestSegment": 3897158,
+        "duration": 21.266666
+      }
+    ]
+  },
+  "short-handheld-6": {
+    "manifest": "/streams/v1/short-handheld-6/e082d2dfa5a0/master.m3u8",
+    "sourceSHA256": "e082d2dfa5a05cc7be8cc7ce4e91b269efa2432d51a1f9bfbb65b136fed832c8",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 725359,
+        "bytes": 688143,
+        "largestSegment": 329709,
+        "duration": 10.083333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 4763009,
+        "bytes": 4787885,
+        "largestSegment": 2435630,
+        "duration": 10.066666999999999
+      }
+    ]
+  },
+  "short-manual": {
+    "manifest": "/streams/v1/short-manual/49ed32284b3e/master.m3u8",
+    "sourceSHA256": "49ed32284b3e406ef666ecccee84c177580a1935752c9ea4c3d0bcb0282c7363",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 564260,
+        "bytes": 1943942,
+        "largestSegment": 256482,
+        "duration": 36.416667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 3301805,
+        "bytes": 11005926,
+        "largestSegment": 2588761,
+        "duration": 36.433333
+      }
+    ]
+  },
+  "short-viral": {
+    "manifest": "/streams/v1/short-viral/dbf77a36a2ce/master.m3u8",
+    "sourceSHA256": "dbf77a36a2cebdaa628b80e898b68c235a962f35db6c907e2534fdbff0b6263e",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 690976,
+        "bytes": 1155582,
+        "largestSegment": 314080,
+        "duration": 15.916667
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 4213755,
+        "bytes": 5791635,
+        "largestSegment": 2074955,
+        "duration": 15.933333999999999
+      }
+    ]
+  },
+  "short-cat-ball": {
+    "manifest": "/streams/v1/short-cat-ball/c894c578ee4d/master.m3u8",
+    "sourceSHA256": "c894c578ee4d1fbee409632941b9c8b471c02874d499d4fae9b69bfb4e545686",
+    "levels": [
+      {
+        "name": "low",
+        "peakBandwidth": 711009,
+        "bytes": 1336610,
+        "largestSegment": 323186,
+        "duration": 18.083333
+      },
+      {
+        "name": "high",
+        "peakBandwidth": 7616148,
+        "bytes": 14380602,
+        "largestSegment": 4615847,
+        "duration": 18.066666
+      }
+    ]
+  }
+}

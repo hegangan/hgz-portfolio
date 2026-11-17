@@ -17,3 +17,4 @@ const posters=JSON.parse(await fs.readFile(path.join(root,'src/poster-assets.jso
 for(const [id,item] of Object.entries(catalog)){for(const url of [item.video,item.image,posters[id]?.src].filter(Boolean)){assert((await fs.stat(path.join(dist,url.replace(/^\//,'')))).isFile(),'Missing work asset '+url);}}
 assert(Object.keys(catalog).length===30,'All 30 films must remain available');
 console.log(JSON.stringify({base,films:Object.keys(catalog).length,files:count,totalMiB:+(total/1048576).toFixed(2),largestMiB:+(largest/1048576).toFixed(2),entryAssets:urls.length}));
+await import('./check-performance.mjs');

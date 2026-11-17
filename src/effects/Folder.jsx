@@ -678,7 +678,7 @@ const renderItem = item => {
     if (item.image) {
       return (
         <div className="folder-photo">
-          <img src={item.image} alt={item.alt ?? item.title ?? ''} draggable={false} />
+          <img src={item.image} alt={item.alt ?? item.title ?? ''} loading="lazy" decoding="async" draggable={false} />
         </div>
       );
     }

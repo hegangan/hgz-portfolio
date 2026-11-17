@@ -4,6 +4,8 @@ import additionalFilms from './additional-films';
 import shortFilms from './short-films';
 import posterDesigns from './poster-designs.json';
 import posterAssets from './poster-assets.json';
+import optimizedImages from './optimized-images.json';
+import streams from './streaming-catalog.json';
 
 export const filmCategories = [
   { id: 'live', zh: '实拍作品', en: 'Live-action Films' },
@@ -167,6 +169,9 @@ export function getFilms(language) {
   return films.map((film, i) => ({
     ...catalog[film.id], ...film,
     language, cover:posterDesigns[film.id],coverImage:publicAsset(posterAssets[film.id].src),
+    coverThumbnail:publicAsset(optimizedImages[film.id][240]),coverPreview:publicAsset(optimizedImages[film.id][480]),
+    coverSrcSet:publicAsset(optimizedImages[film.id][240])+' 240w, '+publicAsset(optimizedImages[film.id][480])+' 480w, '+publicAsset(posterAssets[film.id].src)+' 800w',
+    stream:publicAsset(streams[film.id].manifest),
     image:publicAsset(catalog[film.id].image),video:publicAsset(catalog[film.id].video),
     number: String(i + 1).padStart(2, '0'),
     title: film.title[index], discipline: film.discipline[index],

@@ -1,18 +1,19 @@
 import {publicAsset} from './site-assets';
 import { filmCount } from './films';
+import optimizedImages from './optimized-images.json';
 // 个人资料依据用户简历及后续更正整理，作品数量与作品目录同步。
 export const profile = {
   name: '何淦中',
   englishName: 'HE GANZHONG',
-  heroPortrait: publicAsset('/images/he-ganzhong-hero-cutout.png'),
+  heroPortrait: publicAsset(optimizedImages.hero.src),
   monogram: 'H.GZ',
   role: '视觉设计师 / AI 设计师 / 品牌设计师',
   currentRole: 'AI 团队负责人 / AI 视觉设计师',
   email: '609721033@qq.com',
-  wechatQRCode: publicAsset('/images/contact/wechat-qr.png'),
+  wechatQRCode: publicAsset(optimizedImages.wechat.src),
   phone: '13640399633',
   qq: '609721033',
-  portrait: publicAsset('/images/he-ganzhong-formal.jpg'),
+  portrait: publicAsset(optimizedImages.portrait.src),
   intro: '我是何淦中，拥有两年以上 AIGC 视觉创作经验，现任 AI 团队负责人 / AI 视觉设计师。以视觉传达设计与摄影为基础，连接品牌表达、镜头语言和生成式技术，参与并带领团队完成品牌宣传、商业广告、AI 短剧及游戏向视频等项目，从创意策划一路推进到成片交付。',
   stats: [
     { value: '02', suffix: '+', label: '年 AIGC 创作经验', note: 'AI 视觉 / 视频生成' },

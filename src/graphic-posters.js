@@ -1,4 +1,5 @@
 import {publicAsset} from './site-assets';
+import optimizedImages from './optimized-images.json';
 
 const posters = [
   ['changzhi', ['长治博物馆 · 城市文化海报', 'Changzhi Museum · Cultural Poster'], ['城市文化 / 字体与版式', 'CULTURE / TYPOGRAPHY'], 3508, 4961],
@@ -14,6 +15,7 @@ export function getGraphicPosters(language) {
   return posters.map(([id, title, discipline, width, height]) => ({
     id, title: title[index], discipline: discipline[index], width, height,
     coverImage: publicAsset(`/images/graphic-posters/${id}.webp`),
+    coverThumbnail:publicAsset(optimizedImages['graphic-'+id][240]),
     image: publicAsset(`/images/graphic-posters/${id}.webp`),
     original: publicAsset(`/images/graphic-posters/${id}.jpg`),
   }));

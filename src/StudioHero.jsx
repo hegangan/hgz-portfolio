@@ -1,18 +1,18 @@
-import {publicAsset} from './site-assets';
 import React,{useEffect,useRef} from 'react';
 import {filmCount} from './films';
 import CursorGrid from './effects/CursorGrid';
 import TextPressure from './TextPressure';
 import CircularText from './CircularText';
 import './intro-hero.css';
+import {usePlaybackActive} from './playback-state';
 const Arrow=()=> <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg>;
 const Play=()=> <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 5 10 7-10 7V5Z"/></svg>;
 export default function StudioHero({profile,language,theme,paused,videoRef,projects,onOpen}){
+  const playing=usePlaybackActive();
   const en=language==='en',light=theme==='light',reel=projects.find(film=>film.id==='showreel')||projects[0],titleRef=useRef(null);
   useEffect(()=>{let alive=true;const title=titleRef.current,word=title.querySelector('.portfolio-word');const fit=()=>{if(alive&&word.offsetWidth)title.style.setProperty('--portfolio-fit',String(title.clientWidth/word.offsetWidth));};const observer=new ResizeObserver(fit);observer.observe(title);observer.observe(word);window.addEventListener('resize',fit);document.fonts?.ready.then(fit);fit();return()=>{alive=false;observer.disconnect();window.removeEventListener('resize',fit);};},[]);
   return <section id="home" className={'portrait-hero'+(en?' portrait-hero-english':'')} data-motion-scene="hero">
-    <video ref={videoRef} className="portrait-hero-ambient" autoPlay={!paused} loop muted playsInline preload="metadata" aria-hidden="true"><source src={publicAsset("/images/orbit.mp4")} type="video/mp4"/></video>
-    <CursorGrid className="portrait-hero-grid" color={light?'#cb4f31':'#d6ee8b'} gridColor={light?'#927e68':'#8ba89c'} lightMode={light} cellSize={88} radius={180} gridStyle="lines" holdTime={130} fadeDuration={900} fillOpacity={0} gridOpacity={.018} maxOpacity={.24} spotlight={0} lineWidth={1} clickPulse pulseSpeed={460} ambient={0} edgeFade={.16}/>
+    {!playing&&document.documentElement.dataset.performance!=='lite'&&<CursorGrid className="portrait-hero-grid" color={light?'#cb4f31':'#d6ee8b'} gridColor={light?'#927e68':'#8ba89c'} lightMode={light} cellSize={88} radius={180} gridStyle="lines" holdTime={130} fadeDuration={900} fillOpacity={0} gridOpacity={.018} maxOpacity={.24} spotlight={0} lineWidth={1} clickPulse pulseSpeed={460} ambient={0} edgeFade={.16}/> }
     <div className="container portrait-hero-stage">
       <div className="portrait-hero-topline"><span><i aria-hidden="true">✳</i> AIGC VISUAL DESIGNER</span><a href="#contact"><span className="status-dot"/>{en?'OPEN TO NEW OPPORTUNITIES':'开放新的工作机会'}<span aria-hidden="true">⟶</span></a></div>
       <h1 ref={titleRef} className="portrait-hero-title" aria-label={en?'He Ganzhong — AIGC Visual Designer Portfolio':'何淦中 — AIGC视觉设计师个人作品集'}><TextPressure text="PORTFOLIO" className="portfolio-word" strength={.045} baseWeight={800} pressureWeight={900}/></h1>

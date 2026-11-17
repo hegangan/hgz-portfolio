@@ -947,9 +947,7 @@ const TechText = ({
       }, 550);
     };
     const themeObserver = new MutationObserver(invalidateTheme);
-    for (const node of [document.documentElement, document.body]) {
-      if (node) themeObserver.observe(node, { attributes: true, attributeFilter: ['class', 'data-theme'] });
-    }
+    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
     const schemeQuery = window.matchMedia?.('(prefers-color-scheme: dark)');
     schemeQuery?.addEventListener?.('change', invalidateTheme);
     if (document.fonts) document.fonts.ready.then(fontsLoaded, fontsLoaded);
